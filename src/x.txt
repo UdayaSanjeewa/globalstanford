@@ -1,0 +1,55 @@
+import welcomeImage from "../assets/welcome-img.jpg";
+import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
+import { fadeIn } from "../variants";
+import { Link, useNavigate } from "react-router-dom";
+
+function Welcome() {
+  const navigate = useNavigate();
+
+  return (
+    <div className="flex ">
+      <div className="relative">
+        <img
+          src={welcomeImage}
+          className="h-[782px] w-lvw opacity-[0.8]"
+          alt=""
+        />
+        <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-sky-800/40 via-sky-800/30 to-sky-800/40"></div>
+      </div>
+      <motion.div
+        variants={fadeIn("up", 0.6)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
+        className="absolute top-[376.5px] left-[100px] gap-[95px]"
+      >
+        <motion.h1
+          variants={fadeIn("right", 0.6)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="text-[85px] font-inter text-white font-[700]"
+        >
+          WELCOME TO <br />
+        </motion.h1>
+        {/* <h1 className='text-[85px] animate-typing overflow-hidden whitespace-nowrap border-r-4
+              border-r-white pr-5 text-5xl text-white font-bold'>OUR UNIVERSITY</h1> */}
+        <TypeAnimation
+          sequence={["Our University", 2000, "Global Stanford Campus"]}
+          speed={20}
+          repeat={Infinity}
+          className="text-[85px] overflow-hidden whitespace-nowrap border-r-4
+          border-r-white pr-5 text-5xl text-white font-bold"
+        />
+
+        <br />
+        <button onClick={()=>navigate("/apply-now")} className="text-[19px] text-white bg-[#007FFF] rounded-[16px] h-[60px] w-[268.09px] font-[800] mt-20 hover:bg-sky-400 hover:text-gray-100 hover:shadow-md">
+          Apply Now
+        </button>
+      </motion.div>
+    </div>
+  );
+}
+
+export default Welcome;

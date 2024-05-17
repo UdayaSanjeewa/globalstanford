@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nokora:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nokora:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Nokora:wght@100;300;400;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply text-[1.75rem] md:text-[3.125rem] leading-[1.1] font-semibold tracking-wide text-white;
+}
+
+.title2 {
+  @apply text-[1.54rem] md:text-[3.125rem] leading-[1.1] font-semibold tracking-wide text-sky-800 animate-typing overflow-hidden 
+  whitespace-nowrap pr-5 ;
+}
+
+.title3 {
+  @apply text-[1.75rem] md:text-[3.125rem] leading-[1.1] font-semibold tracking-wide text-sky-400;
+}
+
+.subtitle {
+  @apply text-[1.125rem] md:text-[1.625rem] leading-[1.1] font-light text-white;
+}
+
+.blue-button {
+  @apply bg-sky-700  py-[1px] px-[5px] md:py-[6px] md:px-[26px] flex md:items-stretch rounded-lg text-base 
+  md:text-[1.625rem]  font-light text-white md:m-0 mx-auto;
+}
+
+.gray-border {
+  @apply border-t-[8px] border-[#003478];
+}
+
+.list-item-icon {
+  @apply w-4 h-4 text-white transform fill-current md:h-6 md:w-6;
+}
+.list-item-title {
+  @apply md:text-[1.625rem] text-[0.856rem]  tracking-wide text-white mb-2;
+}
+
+.list-item {
+  @apply flex justify-between w-full bg-gradient-to-r from-blue-700/90 to-sky-700/90 md:py-5 py-1 px-8 items-center 
+  rounded-md hover:bg-gray-600;
+}
+
+.footer-item {
+  @apply pb-[14px];
+}

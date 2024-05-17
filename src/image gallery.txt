@@ -1,0 +1,46 @@
+<div className="flex justify-center ">
+      <button className="absolute h-[46.1px] w-[219px] translate-y-[-40px] bg-white rounded-t-[20px] ml-[1122px] font-inter font-[21px] font-[600]">
+        Inquiries
+      </button>
+      <div className="flex mt-20 mb-10 ml-[142.9px] gap-36 items-center justify-center ">
+        {/* text */}
+        <div>
+          <motion.h2
+            variants={fadeIn("up", 0.6)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="font-inter text-[45px]  mt-[13px] uppercase animate-typing overflow-hidden 
+                whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-sky-900 font-bold"
+          >
+            Image Gallery
+          </motion.h2>
+          <div className="w-[342px] mt-[60px]">
+            <motion.p
+              variants={fadeIn("right", 0.6)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="font-inter text-[32px] font-[400] pb-8 text-black-600"
+            >
+              <span className="text-sky-500">Discover the Global Stanford Experience</span> Explore our Gallery.
+            </motion.p>
+          </div>
+        </div>
+        {/* Tv image of gallery */}
+        <motion.div
+         variants={fadeIn("left", 0.6)}
+         initial="hidden"
+         whileInView={"show"}
+         viewport={{ once: false, amount: 0.7 }}
+        className="relative md:w-[48%] w-full">
+          <img src={tvImage} alt="" />
+          <img
+           
+            src={lectureHall}
+            className="absolute top-[48%] max-h-[55%] w-[73%] left-[49.5%] -translate-x-1/2 -translate-y-1/2"
+            alt=""
+          />
+        </motion.div>
+      </div>
+    </div>
