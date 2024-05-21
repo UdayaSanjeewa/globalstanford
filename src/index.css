@@ -17,7 +17,7 @@
 }
 
 .title3 {
-  @apply text-[1.75rem] md:text-[3.125rem] leading-[1.1] font-semibold tracking-wide text-sky-400;
+  @apply text-[1.75rem] md:text-[3.125rem] leading-[1.1] font-semibold tracking-wide text-sky-700;
 }
 
 .subtitle {
@@ -30,7 +30,7 @@
 }
 
 .gray-border {
-  @apply border-t-[8px] border-[#003478];
+  @apply border-t-[8px] border-[#346daf]/40;
 }
 
 .list-item-icon {

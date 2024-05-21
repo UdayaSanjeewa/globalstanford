@@ -43,26 +43,26 @@ const SectionFAQ = () => {
       <h1 className="w-full mb-6 text-center title3 max-w-[1100px] mx-auto md:py-[70px] px-[30px] pt-3 ">
         Frequently Asked Questions
       </h1>
-      <div className="mb-2">
+      <div className="mb-1">
         <FAQ FAQ="What is Global Stanford Campus ?" Cont={con1} />
       </div>
-      <div className="mb-2">
+      <div className="mb-1">
         <FAQ FAQ="What are Top-Up Degrees ?" Cont={con2} />
       </div>
-      <div className="mb-2">
+      <div className="mb-1">
         <FAQ FAQ="How to Register ?" Cont={con3} />
       </div>
-      <div className="mb-2">
+      <div className="mb-1">
         <FAQ FAQ="What About the Payment?" Cont={con4} />
       </div>
-      <div className="mb-2">
+      <div className="mb-1">
         <FAQ FAQ="How the Lectures are helding ?" Cont={con5} />
       </div>
-      <div className="mb-2">
+      <div className="mb-1">
         <FAQ FAQ="How to Get The UGC Letter" Cont={con6} />
       </div>
       <div>
-        <div className="pb-1 m-2 text-xl text-center text-white pt-7">
+        <div className="pb-1 m-2 text-xl text-center text-white font-bold pt-7">
           Ready to start? Enter your email to get more details your Degree
         </div>
         <div className="flex flex-col w-full gap-2 md:justify-center md:flex-row md:items-stretch ">
@@ -139,7 +139,7 @@ const FAQ = (props: any) => {
           </li>
           <li>
             <div
-              className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm bg-gradient-to-r from-blue-700/90 to-sky-700/90 rounded-b-md mx-4 pl-2 py-2 ${
+              className={`grid overflow-hidden transition-all duration-300 ease-in-out text-black text-sm bg-gradient-to-r from-blue-400/90 to-sky-700/40 rounded-b-md mx-4 pl-2 py-2 ${
                 accordionOpen
                   ? "grid-rows-[1fr] opacity-100"
                   : "grid-rows-[0fr] opacity-0"

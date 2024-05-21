@@ -11,15 +11,15 @@ function Navbar() {
   return (
     <div className="bg-[#003478] h-[50px] flex justify-between items-center overflow-hidden">
       {/* name div */}
-      <div className="flex-grow">
+      <div className={`${menuOpen ? "hidden" : "block"}`} id="x">
         <Link to={"/"}>
-          <h1 className="hidden md:block text-white md:text-[20px] text-xs font-catamaran pl-[69px] font-[700]">
+          <h1 className="text-white md:text-[20px] text-xs font-catamaran pl-[19px] sm:pl-[69] font-[700]">
             Global Stanford Campus
           </h1>
         </Link>
       </div>
       {/* Hamburger menu for small screens */}
-      <div className="md:hidden">
+      <div className="md:hidden mr-4">
         <button onClick={toggleMenu} className="text-white focus:outline-none">
           <svg
             className="w-6 h-6"

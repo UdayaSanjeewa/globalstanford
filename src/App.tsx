@@ -17,7 +17,7 @@ function App() {
   }, [pathname]);
 
   return (
-    <div className="flex flex-col overflow-hidden bg-gradient-to-r from-blue-700/10 to-sky-700/10 ">
+    <div className="flex flex-col overflow-hidden bg-gradient-to-r from-blue-900/40 to-sky-900/40 ">
       <div>
         <Navbar />
         <SubNavbar />
@@ -25,14 +25,14 @@ function App() {
       <div>
         <Welcome />
       </div>
-      <div className="bg-gradient-to-r from-blue-700/10 to-sky-700/0 gray-border">
+      <div className="gray-border">
         <ImageGrallery />
       </div>
-      <div className="bg-gradient-to-r from-blue-700/20 to-sky-700/20 gray-border">
+      <div className="gray-border">
         <Map />
       </div>
       {/* Added FaQ segment as a proposal */}
-      <div className="bg-gradient-to-r from-blue-700/20 to-sky-700/20 gray-border">
+      <div className="gray-border">
         <SectionFAQ/>
       </div>
       <Footer />
