@@ -11,7 +11,7 @@ export default function SubNavBar2() {
 
   return (
     <header>
-      <nav className="flex items-center justify-between w-[92%] mx-auto md:h-[71px] relative">
+      <nav className="flex items-center justify-between w-[92%] mx-auto md:h-[71px] relative ">
         {/* logo */}
         <div className="sm:block hidden">
           <Logo />
