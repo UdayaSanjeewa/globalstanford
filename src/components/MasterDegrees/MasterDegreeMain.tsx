@@ -3,7 +3,7 @@ import MainHeading from "./MastersMainHeading";
 import MastersGallery from "./MastersPageGallery";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "../../variants";
+
 
 function MasterDegreeMain() {
   const { pathname } = useLocation();
@@ -14,10 +14,7 @@ function MasterDegreeMain() {
 
   return (
     <motion.div
-      variants={fadeIn("up", 0.6)}
-      initial="hidden"
-      whileInView={"show"}
-      viewport={{ once: false, amount: 0.7 }}
+      
     >
       {/* Masters degree page components */}
       <MainHeading />

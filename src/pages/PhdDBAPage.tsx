@@ -14,13 +14,13 @@ function PhdDBAPage() {
   }, [pathname]);
 
   return (
-    <>
+    <div className="flex flex-col overflow-hidden bg-gradient-to-r from-blue-900/40 to-sky-900/40">
       <Navbar />
       <SubNavbar/>
-      <BachelorsDegreeHeading title="Phd. / DBA"/>
+      <BachelorsDegreeHeading title="Phd/DBA"/>
       <PhdDBAGallery />
       <Footer />
-    </>
+    </div>
   );
 }
 

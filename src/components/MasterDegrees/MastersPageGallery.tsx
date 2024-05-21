@@ -1,85 +1,72 @@
-
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 import Master from "../../assets/Master.jpg";
-import Banking from "../../assets/MBA Banking.jpg"
-import Management from "../../assets/MBA Management.jpg"
+import Banking from "../../assets/MBA Banking.jpg";
+import Management from "../../assets/MBA Management.jpg";
 import { Link } from "react-router-dom";
 
 function MastersPageGallery() {
   return (
-    <div className="flex flex-col mt-5 mb-5 lg:grid  grid-cols-3 gap-10 sm:my-[10vh] sm:mx-[10vh] justify-center items-center">
-      {/*container gallery */}
-
-
+    <motion.div
+      className="sm:grid grid-cols-3 gap-6 my-[10vh] mx-[10vh]"
+    >
+      {/* MBA in Management */}
       <motion.div
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: true, amount: 0.7 }}
+        viewport={{ once: false, amount: 0.5 }}
       >
         <Link to={"/master-degrees/mba-management"}>
-          <div className="flex flex-col w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[280px] xl:w-[330px] xl:h-[324px]">
-            {/*Image div*/}
-            <img src={Management} className="h-[264px] w-[330px]" alt="" />
-
-            <p
-              className="bg-[#007FFF] w-[200px] h-[68px] sm:w-[250px] md:w-[300px] xl:w-[330px] flex items-center justify-center font-catamaran 
-              font-[800] text-[18px] text-white"
-            >
-
-              MBA in Management
-
-            </p>
+          <div className="my-10">
+            <img src={Management} alt="" className="sm:h-[364px] w-full" />
+            <div className="h-[68px] bg-[#007FFF] w-full">
+              <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
+                MBA in Management
+              </h1>
+            </div>
           </div>
         </Link>
       </motion.div>
 
-
+      {/* MBA in Banking and Finance */}
       <motion.div
-        variants={fadeIn("up", 0.9)}
+        variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: true, amount: 0.7 }}
+        viewport={{ once: false, amount: 0.5 }}
       >
         <Link to={"/master-degrees/mba-bankingAndFinance"}>
-          <div className="flex flex-col w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[280px] xl:w-[330px] xl:h-[324px]">
-            {/*Image div*/}
-            <img src={Banking} className="h-[264px] w-[330px]" alt="" />
-
-            <p
-              className="bg-[#007FFF] w-[200px] h-[68px] sm:w-[250px] md:w-[300px] xl:w-[330px] flex items-center justify-center font-catamaran 
-              font-[800] text-[18px] text-white text-center"
-            >
-              MBA in Banking and Finance
-            </p>
+          <div className="my-10">
+            <img src={Banking} alt="" className="sm:h-[364px] w-full" />
+            <div className="h-[68px] bg-[#007FFF] w-full">
+              <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
+                MBA in Banking and Finance
+              </h1>
+            </div>
           </div>
         </Link>
       </motion.div>
 
-
+      {/* Master of Education */}
       <motion.div
-        variants={fadeIn("up", 0.9)}
+        variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: true, amount: 0.7 }}
+        viewport={{ once: false, amount: 0.5 }}
       >
         <Link to={"/master-degrees/master-education"}>
-          <div className="flex flex-col w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[280px] xl:w-[330px] xl:h-[324px]">
-            {/*Image div*/}
-            <img src={Master} className="h-[264px] w-[330px]" alt="" />
-
-            <p
-              className="bg-[#007FFF] w-[200px] h-[68px] sm:w-[250px] md:w-[300px] xl:w-[330px] flex items-center justify-center font-catamaran 
-              font-[800] text-[18px] text-white"
-            >
-              Master of Education
-            </p>
+          <div className="my-10">
+            <img src={Master} alt="" className="sm:h-[364px] w-full" />
+            <div className="h-[68px] bg-[#007FFF] w-full">
+              <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
+                Master of Education
+              </h1>
+            </div>
           </div>
         </Link>
       </motion.div>
-
-    </div>
+    </motion.div>
   );
 }
 

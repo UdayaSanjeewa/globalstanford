@@ -7,8 +7,7 @@ function DOPUpperBox() {
         </p>
         <ul className=" ml-[6%] mt-[3px] text-[12px] sm:text-[16px] font-regular">
           <li>
-            Any recognized bachelor degree in management related or IBSL pass
-            finalized
+          Master Degree
           </li>
         </ul>
       </div>

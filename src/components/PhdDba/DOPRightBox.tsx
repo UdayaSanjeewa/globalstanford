@@ -13,7 +13,7 @@ function DOPRightBox(props: DOPRightBoxProps) {
 
       <div className="flex flex-row ml-[3%] py-1 sm:text-[16px] text-[12px]">
         <p className="font-bold">Credits :</p>&nbsp;
-        <p className=" font-regular">60 credits (Equivalent to 2 Years)</p>
+        <p className=" font-regular">60 credits (Equivalent to 3 Years)</p>
       </div>
 
       <div className="flex flex-row ml-[3%] py-1 sm:text-[16px] text-[12px]">
