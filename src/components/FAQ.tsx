@@ -1,6 +1,39 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+// Content
+const con1 =
+  "Since GSC’s founding in 2018, GSC has established itself as a prominent leader in Sri Lanka's private sector higher education landscape. We offer UGC-recognized diplomas and degree programs that are internationally certified. Each course is designed according to standards that meet the highest quality of such an educational program.";
+const con2 =
+  "Top-up degrees are essentially the final year of an undergraduate degree program. They are designed for students who already have some college-level qualifications, typically a Higher National Diploma (HND) or a foundation degree";
+const con3 =
+  "You can register by calling the number below and contacting an officer on our campus.";
+const con4 =
+  "The Affordable Course Fee along with Flexible Payments Plans (Monthly Payment Plan)";
+const con5 = (
+  <>
+    <p>
+      How are the Lectures held? This BED program is unique in its delivery
+      style. It focuses on assignments and a thesis, eliminating the stress of
+      traditional exams. Assignments likely test your understanding of the
+      course material through written work, case studies, or projects.{" "}
+    </p>
+    <ul className="ml-10">
+      <li>- Online Learning</li>
+      <li>- Case studies</li>
+      <li>- Readings on recommended books.</li>
+      <li>- Weekend Lectures.</li>
+    </ul>
+    <p>
+      A qualified supervisory panel is available for the research supervision.
+      The thesis provides an opportunity to delve deeper into a specific
+      education topic through research and writing
+    </p>
+  </>
+);
+const con6 =
+  "Global Stanford Campus will take the Responsible to Get our Students the UGC Verifycation letter";
+
 //sectionFAQ
 
 const SectionFAQ = () => {
@@ -11,22 +44,22 @@ const SectionFAQ = () => {
         Frequently Asked Questions
       </h1>
       <div className="mb-2">
-        <FAQ FAQ="What is Global Stanford Campus ?" />
+        <FAQ FAQ="What is Global Stanford Campus ?" Cont={con1} />
       </div>
       <div className="mb-2">
-        <FAQ FAQ="What are Top-Up Degrees ?" />
+        <FAQ FAQ="What are Top-Up Degrees ?" Cont={con2} />
       </div>
       <div className="mb-2">
-        <FAQ FAQ="How to Register ?" />
+        <FAQ FAQ="How to Register ?" Cont={con3} />
       </div>
       <div className="mb-2">
-        <FAQ FAQ="What About the Payment?" />
+        <FAQ FAQ="What About the Payment?" Cont={con4} />
       </div>
       <div className="mb-2">
-        <FAQ FAQ="How the Lectures are helding ?" />
+        <FAQ FAQ="How the Lectures are helding ?" Cont={con5} />
       </div>
       <div className="mb-2">
-        <FAQ FAQ="How to Get The UGC Letter" />
+        <FAQ FAQ="How to Get The UGC Letter" Cont={con6} />
       </div>
       <div>
         <div className="pb-1 m-2 text-xl text-center text-white pt-7">
@@ -42,9 +75,11 @@ const SectionFAQ = () => {
               settext(e.target.value);
             }}
           ></input>
-          <Link 
-          className=" blue-button"
-          to={"https://docs.google.com/forms/d/e/1FAIpQLScr6QLFtYLDStjvVylN0LOEke5taAYWXmc6UVSKNnqOT9L_GA/viewform?usp=sf_link"}
+          <Link
+            className=" blue-button"
+            to={
+              "https://docs.google.com/forms/d/e/1FAIpQLScr6QLFtYLDStjvVylN0LOEke5taAYWXmc6UVSKNnqOT9L_GA/viewform?usp=sf_link"
+            }
           >
             <span className="flex items-center">
               Get Started
@@ -104,22 +139,13 @@ const FAQ = (props: any) => {
           </li>
           <li>
             <div
-              className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm bg-gradient-to-r from-blue-700/90 to-sky-700/90 rounded-b-md mx-4 text-center ${
+              className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm bg-gradient-to-r from-blue-700/90 to-sky-700/90 rounded-b-md mx-4 pl-2 py-2 ${
                 accordionOpen
                   ? "grid-rows-[1fr] opacity-100"
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-              <div className="overflow-hidden text-white">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
-                quis ullam suscipit similique magni porro corporis, inventore
-                debitis unde. Quasi autem rerum explicabo labore ex excepturi
-                corporis tenetur officiis culpa? Veritatis minus porro, soluta
-                alias, dignissimos error facere praesentium itaque vel ducimus
-                voluptatibus assumenda odio aliquam earum! Placeat neque modi
-                sunt non maiores rerum omnis labore! Doloribus alias nostrum
-                distinctio.
-              </div>
+              <div className="overflow-hidden text-white">{props.Cont}</div>
             </div>
           </li>
         </ul>
