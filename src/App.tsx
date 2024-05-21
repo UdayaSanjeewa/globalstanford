@@ -17,7 +17,7 @@ function App() {
   }, [pathname]);
 
   return (
-    <div className="flex flex-col overflow-hidden bg-gradient-to-r from-blue-900/40 to-sky-900/40 ">
+    <div className="flex flex-col overflow-hidden bg-gradient-to-r from-blue-900/30 via-sky-900/50 to-blue-900/30 ">
       <div>
         <Navbar />
         <SubNavbar />

@@ -12,7 +12,7 @@ function AboutUsContent() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="mt-10 p-6 rounded-lg bg-gradient-to-r from-[#1b1b49] via-[#0c0c86] to-[#032150] text-white"
+          className="mt-10 p-6 rounded-lg bg-gradient-to-r from-[#3d79aa] via-[#124a77] to-[#3d79aa] text-white"
         >
           <span className=" text-white font-bold ">
             Since GSC’s founding in 2018, GSC has established itself as a
@@ -30,7 +30,7 @@ function AboutUsContent() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="mt-10 p-6 text-white font-bold rounded-lg bg-gradient-to-r from-[#1b1b49] via-[#0c0c86] to-[#032150] text-white"
+          className="mt-10 p-6 font-bold rounded-lg bg-gradient-to-r from-[#3d79aa] via-[#124a77] to-[#3d79aa] text-white"
         >
           We offer UGC-recognized diplomas and degree programs that are
           internationally certified. Each course is designed according to
@@ -45,7 +45,7 @@ function AboutUsContent() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="mt-10 p-6 text-white font-bold rounded-lg bg-gradient-to-r from-[#1b1b49] via-[#0c0c86] to-[#032150] text-white"
+          className="mt-10 p-6 font-bold rounded-lg bg-gradient-to-r from-[#3d79aa] via-[#124a77] to-[#3d79aa] text-white"
         >
           GSC's founders addressed this issue by creating a unique learning
           environment specifically designed for working professionals. The

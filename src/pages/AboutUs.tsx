@@ -6,7 +6,7 @@ import AboutUsContent from "../components/AboutUs/AboutUsContent";
 
 function AboutUs() {
   return (
-    <div className="bg-gradient-to-r from-blue-700/20  to-sky-700/20 overflow-hidden">
+    <div className=" bg-gradient-to-r from-blue-900/30 via-sky-900/50 to-blue-900/30  overflow-hidden">
       <Navbar />
       <SubNavbar />
       <AboutUsHeader />

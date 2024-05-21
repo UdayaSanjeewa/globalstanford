@@ -6,7 +6,7 @@ import DegreeDetails from "../components/BachelorDegrees/DegreeDetails";
 
 function BachelorsOfScienceInNursing() {
   return (
-    <div className="bg-gradient-to-r from-blue-700/20 to-sky-700/20">
+    <div className="bg-gradient-to-r from-blue-900/30 via-sky-900/50 to-blue-900/30 ">
       <Navbar />
       <SubNavbar/>
       <BlueBox />
