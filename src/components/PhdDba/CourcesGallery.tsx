@@ -66,7 +66,7 @@ function CourcesGallery() {
               <img src={conversation} alt="" className="sm:h-[364px] w-full" />
               <div className="h-[68px] bg-[#007FFF] w-full">
                 <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
-                  PHD/PDA
+                  PHD/DBA
                 </h1>
               </div>
             </a>
