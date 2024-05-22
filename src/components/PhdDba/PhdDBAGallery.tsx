@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import conversation from "../../assets/homepage-fact-value 1.png";
+import conversation from "../../assets/PhD.jpg";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 

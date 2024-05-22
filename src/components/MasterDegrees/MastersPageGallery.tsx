@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 import Master from "../../assets/Master.jpg";
-import Banking from "../../assets/MBA Banking.jpg";
+import Banking from "../../assets/MBA Banking.png";
 import Management from "../../assets/MBA Management.jpg";
 import { Link } from "react-router-dom";
 

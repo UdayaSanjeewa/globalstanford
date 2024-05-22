@@ -1,6 +1,6 @@
-import lectureHall from "../../assets/lecture-hall.jpg";
-import freestyle from "../../assets/free-time-students-bachelor-s-campus-life-rhythm-five-friendly-students-are-walking 2 (2).png";
-import conversation from "../../assets/homepage-fact-value 1.png";
+import lectureHall from "../../assets/Master’s Degrees.jpg";
+import freestyle from "../../assets/Bachelor’s Degrees.jpg";
+import conversation from "../../assets/Doctor of Philosophy.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";

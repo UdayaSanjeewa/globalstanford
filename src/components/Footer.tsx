@@ -26,7 +26,7 @@ function Footer() {
               <div className="footer-item">Master’s Degrees</div>
             </Link>
             <Link to={"/phd-dba"}>
-              <div className="footer-item">Ph.d / DBA</div>
+              <div className="footer-item">PhD/ DBA</div>
             </Link>
           </div>
 
