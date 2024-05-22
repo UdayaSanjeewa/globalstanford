@@ -47,7 +47,7 @@ const SectionFAQ = () => {
        initial="hidden"
        whileInView={"show"}
        viewport={{ once: false, amount: 0.5 }}
-      className="w-full mb-6 text-center title3 max-w-[1100px] mx-auto md:py-[70px] px-[30px] pt-3 ">
+      className="w-full md:mb-[-20px] text-center title3 max-w-[1100px] mx-auto md:py-[70px] px-[30px] pt-3 mb-1 ">
         Frequently Asked Questions
       </motion.h1>
       <div className="mb-1">
@@ -69,7 +69,7 @@ const SectionFAQ = () => {
         <FAQ FAQ="How to Get The UGC Letter" Cont={con6} />
       </div>
       <div>
-        <div className="pb-1 m-2 text-xl text-center text-white font-bold pt-7 font-mono md:text-3xl">
+        <div className="pb-4 m-2 text-xl text-center text-[#003478] font-bold pt-7 font-mono md:text-3xl">
           Ready to start? Enter your email to get more details your Degree
         </div>
         <div className="flex flex-col w-full gap-2 md:justify-center md:flex-row md:items-stretch ">
@@ -126,7 +126,7 @@ const FAQ = (props: any) => {
             className="cursor-pointer list-item"
             onClick={() => setAccordionOpen(!accordionOpen)}
           >
-            <div className="list-item-title">{props.FAQ}</div>
+            <div className="list-item-title font-serif">{props.FAQ}</div>
             <svg
               width="36"
               height="36"

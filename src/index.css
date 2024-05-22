@@ -13,7 +13,7 @@
 }
 
 .title2 {
-  @apply text-[1.54rem] md:text-[3.125rem] leading-[1.1] font-semibold tracking-wide text-sky-800 animate-typing overflow-hidden 
+  @apply text-[1.54rem] md:text-[3.125rem] leading-[1.1] font-semibold tracking-wide text-[#003478] animate-typing overflow-hidden 
   whitespace-nowrap pr-5 font-serif;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .subtitle {
-  @apply text-[1.125rem] md:text-[1.625rem] leading-[1.1] font-light text-white;
+  @apply text-[1.125rem] md:text-[1.625rem] leading-[1.1] font-light text-black;
 }
 
 .blue-button {

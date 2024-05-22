@@ -10,15 +10,15 @@ function ImageGrallery() {
   return (
     <div className="flex md:flex-row flex-col justify-between max-w-[1100px] gap-3 mx-auto items-center md:mt-10">
       <div className="md:w-[52%] w-full text-center md:text-left md:pt-1 pt-10 px-10 md:items-center md:pr-5 md:pb-5 md:pl-5 ">
-        <h1 className="pb-3 title2 ">Start your Journey! </h1>
-        <p className="subtitle">
-        Explore the captivating <br /> <span className="font-bold font-mono">
+        <h1 className="pb-3 title2 ">Start your Journey! </h1><br />
+        <p className="subtitle ">
+        <span className="">Explore the</span> <br /><span className="font-bold font-mono">
         Global Stanford Campus 
         </span> <br /><br />
        <span className="font-mono"> Join us for the ultimate adventure of a lifetime.</span>
         <br/>
         <br />
-        <span className=" text-sky-600 font-serif mt-4">
+        <span className=" text-rose-900 font-serif mt-4">
         We offer UGC-recognized diplomas and degree programs that are internationally certified!
         </span>
         </p>

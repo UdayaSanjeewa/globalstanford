@@ -18,7 +18,7 @@ function CourcesGallery() {
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: false, amount: 0.1 }}
       >
         <Link to={"/bachelors-degree"}>
           <div className="my-10">
@@ -38,7 +38,7 @@ function CourcesGallery() {
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: false, amount: 0.1 }}
       >
         <Link to={"/master-degrees"}>
           <div className="my-10">
@@ -58,7 +58,7 @@ function CourcesGallery() {
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: false, amount: 0.1 }}
       >
         <Link to={"/phd-dba"}>
           <div className="my-10">
