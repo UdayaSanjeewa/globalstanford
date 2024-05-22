@@ -25,7 +25,7 @@ function Card() {
         <Link to={"/bachelors-degree/bba-management"}>
           <div className="my-10">
             <a href="">
-              <img src={img2} alt="" className="sm:h-[364px] w-full" />
+              <img src={img1} alt="" className="sm:h-[364px] w-full" />
               <div className="h-[68px] bg-[#007FFF] w-full">
                 <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
                   BBA in Management
@@ -45,7 +45,7 @@ function Card() {
         <Link to={"/bachelors-degree/bachelor-of-education"}>
           <div className="my-10">
             <a href="">
-              <img src={img1} alt="" className="sm:h-[364px] w-full" />
+              <img src={img2} alt="" className="sm:h-[364px] w-full" />
               <div className="h-[68px] bg-[#007FFF] w-full">
                 <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
                   Bachelor of Education
