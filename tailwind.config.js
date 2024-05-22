@@ -31,6 +31,12 @@ export default {
       nokora: ["Nokora", "sans-serif"],
       inter: ["Inter", "sans-serif"],
       merriweather: ["Merriweather Sans", "sans-serif"],
+      sans: ['ui-sans-serif', 'system-ui',"sans-serif","Apple Color Emoji","Segoe UI Emoji",],
+      serif: [' ui-serif', 'Georgia',"Cambria","Times New Roman","Times","serif"],
+      mono: ['ui-monospace', 'SFMono-Regular'],
+      poppins: ["Poppins", "sans-serif"],
+      oswald: ["Oswald", "sans-serif"],
+      
     },
   },
   plugins: [],

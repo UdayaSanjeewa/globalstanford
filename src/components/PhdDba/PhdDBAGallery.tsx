@@ -24,7 +24,7 @@ function PhdDBAGallery() {
                 className="sm:h-[300px] sm:w-[400px]"
               />
               <div className="h-[68px] bg-[#007FFF] sm:w-[400px]">
-                <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
+                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px]">
                   Doctor of philosophy
                 </h1>
               </div>

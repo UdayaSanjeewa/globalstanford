@@ -27,7 +27,7 @@ export default function SubNavBar2() {
             <li>
               <Link
                 to={"/"}
-                className="text-sky-800 md:text-base text-sm px-8 py-2 font-bold rounded cursor-pointer hover:text-white hover:bg-gradient-to-r from-red-500 hover:to-rose-500"
+                className="text-sky-800 md:text-lg text-sm px-8 py-2 font-bold rounded cursor-pointer font-mono hover:text-white hover:bg-gradient-to-r from-red-500 hover:to-rose-500"
               >
                 Home
               </Link>
@@ -35,7 +35,7 @@ export default function SubNavBar2() {
             <li>
               <Link
                 to={"/cources"}
-                className="text-sky-800 md:text-base text-sm px-8 py-2 font-bold rounded cursor-pointer hover:text-white hover:bg-gradient-to-r from-red-500 hover:to-rose-500"
+                className="text-sky-800 md:text-lg text-sm px-8 py-2 font-bold rounded cursor-pointer font-mono hover:text-white hover:bg-gradient-to-r from-red-500 hover:to-rose-500"
               >
                 Courses
               </Link>
@@ -43,7 +43,7 @@ export default function SubNavBar2() {
             <li>
               <Link
                 to={"/about-us"}
-                className="text-sky-800 md:text-base text-sm px-8 py-2 font-bold rounded cursor-pointer hover:text-white hover:bg-gradient-to-r from-red-500 hover:to-rose-500"
+                className="text-sky-800 md:text-lg text-sm px-8 py-2 font-bold rounded cursor-pointer font-mono hover:text-white hover:bg-gradient-to-r from-red-500 hover:to-rose-500"
               >
                 AboutUs
               </Link>
@@ -51,7 +51,7 @@ export default function SubNavBar2() {
             <li>
               <Link
                 to={"/alumni"}
-                className="text-sky-800 md:text-base text-sm px-8 py-2 font-bold rounded cursor-pointer hover:text-white hover:bg-gradient-to-r from-red-500 hover:to-rose-500"
+                className="text-sky-800 md:text-lg text-sm px-8 py-2 font-bold rounded cursor-pointer font-mono hover:text-white hover:bg-gradient-to-r from-red-500 hover:to-rose-500"
               >
                 Alumni
               </Link>

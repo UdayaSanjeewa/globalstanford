@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 
 // Content
 const con1 =
@@ -40,9 +42,14 @@ const SectionFAQ = () => {
   const [text, settext] = useState("");
   return (
     <div className="mb-7">
-      <h1 className="w-full mb-6 text-center title3 max-w-[1100px] mx-auto md:py-[70px] px-[30px] pt-3 ">
+      <motion.h1
+       variants={fadeIn("up", 0.6)}
+       initial="hidden"
+       whileInView={"show"}
+       viewport={{ once: false, amount: 0.5 }}
+      className="w-full mb-6 text-center title3 max-w-[1100px] mx-auto md:py-[70px] px-[30px] pt-3 ">
         Frequently Asked Questions
-      </h1>
+      </motion.h1>
       <div className="mb-1">
         <FAQ FAQ="What is Global Stanford Campus ?" Cont={con1} />
       </div>
@@ -62,7 +69,7 @@ const SectionFAQ = () => {
         <FAQ FAQ="How to Get The UGC Letter" Cont={con6} />
       </div>
       <div>
-        <div className="pb-1 m-2 text-xl text-center text-white font-bold pt-7">
+        <div className="pb-1 m-2 text-xl text-center text-white font-bold pt-7 font-mono md:text-3xl">
           Ready to start? Enter your email to get more details your Degree
         </div>
         <div className="flex flex-col w-full gap-2 md:justify-center md:flex-row md:items-stretch ">

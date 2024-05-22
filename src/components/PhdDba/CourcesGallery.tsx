@@ -25,7 +25,7 @@ function CourcesGallery() {
             <a href="">
               <img src={freestyle} alt="" className="sm:h-[364px] w-full" />
               <div className="h-[68px] bg-[#007FFF] w-full">
-                <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
+                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px]">
                   Bachelor's Degrees
                 </h1>
               </div>
@@ -45,7 +45,7 @@ function CourcesGallery() {
             <a href="">
               <img src={lectureHall} alt="" className="sm:h-[364px] w-full" />
               <div className="h-[68px] bg-[#007FFF] w-full">
-                <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
+                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px]">
                   Master’s Degrees
                 </h1>
               </div>
@@ -65,8 +65,8 @@ function CourcesGallery() {
             <a href="">
               <img src={conversation} alt="" className="sm:h-[364px] w-full" />
               <div className="h-[68px] bg-[#007FFF] w-full">
-                <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
-                  PHD/DBA
+                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px]">
+                  PhD/DBA
                 </h1>
               </div>
             </a>

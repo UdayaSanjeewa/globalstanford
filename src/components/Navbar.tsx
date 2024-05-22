@@ -13,7 +13,7 @@ function Navbar() {
       {/* name div */}
       <div className={`${menuOpen ? "hidden" : "block"}`} id="x">
         <Link to={"/"}>
-          <h1 className="text-white md:text-[20px] text-xs font-catamaran pl-[19px] sm:pl-[69] font-[700]">
+          <h1 className="text-white md:text-[20px] text-xs font-mono pl-[19px] sm:pl-[69] font-[700]">
             Global Stanford Campus
           </h1>
         </Link>
