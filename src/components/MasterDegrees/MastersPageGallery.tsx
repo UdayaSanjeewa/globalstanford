@@ -21,7 +21,7 @@ function MastersPageGallery() {
           <div className="my-10">
             <img src={Management} alt="" className="sm:h-[364px] w-full" />
             <div className="h-[68px] bg-[#007FFF] w-full">
-              <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
+              <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.4] tracking-wide">
                 MBA in Management
               </h1>
             </div>
@@ -40,7 +40,7 @@ function MastersPageGallery() {
           <div className="my-10">
             <img src={Banking} alt="" className="sm:h-[364px] w-full" />
             <div className="h-[68px] bg-[#007FFF] w-full">
-              <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
+              <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.4] tracking-wide">
                 MBA in Banking and Finance
               </h1>
             </div>
@@ -59,7 +59,7 @@ function MastersPageGallery() {
           <div className="my-10">
             <img src={Master} alt="" className="sm:h-[364px] w-full" />
             <div className="h-[68px] bg-[#007FFF] w-full">
-              <h1 className="pt-[20px] font-extrabold text-white font-catamaran text-center sm:text-[18px] text-[15px]">
+              <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.4] tracking-wide">
                 Master of Education
               </h1>
             </div>

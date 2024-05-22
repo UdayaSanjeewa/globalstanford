@@ -27,7 +27,7 @@ function Card() {
             <a href="">
               <img src={img1} alt="" className="sm:h-[364px] w-full" />
               <div className="h-[68px] bg-[#007FFF] w-full">
-                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px]">
+                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.3] tracking-wide">
                   BBA in Management
                 </h1>
               </div>
@@ -47,7 +47,7 @@ function Card() {
             <a href="">
               <img src={img2} alt="" className="sm:h-[364px] w-full" />
               <div className="h-[68px] bg-[#007FFF] w-full">
-                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px]">
+                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.3] tracking-wide">
                   Bachelor of Education
                 </h1>
               </div>
@@ -67,7 +67,7 @@ function Card() {
             <a href="">
               <img src={img3} alt="" className="sm:h-[364px] w-full" />
               <div className="h-[68px] bg-[#007FFF] w-full">
-                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px]">
+                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.3] tracking-wide">
                   Bachelor of Science In Nursing
                 </h1>
               </div>
