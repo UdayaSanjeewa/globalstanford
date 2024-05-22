@@ -8,8 +8,8 @@ import img5 from "../assets/Untitled-5.jpg";
 
 function ImageGrallery() {
   return (
-    <div className="flex md:flex-row flex-col justify-between max-w-[1100px] gap-3 mx-auto items-center md:mt-10">
-      <div className="md:w-[52%] w-full text-center md:text-left md:pt-1 pt-10 px-10 md:items-center md:pr-5 md:pb-5 md:pl-5 ">
+    <div className="flex md:flex-row flex-col justify-between max-w-[1100px] gap-3 mx-auto items-center md:mt-10 ">
+      <div className="md:w-[52%] w-full text-center md:text-left md:pt-1 pt-10 px-10 md:items-center md:pr-5 md:pb-5 md:pl-5  ">
         <h1 className="pb-3 title2 ">Start your Journey! </h1><br />
         <p className="subtitle ">
         <span className="">Explore the</span> <br /><span className="font-bold font-mono">
@@ -27,31 +27,32 @@ function ImageGrallery() {
         <Carousel>
           <div>
             <img
-              className="object-cover "
+              className="object-cover w-full h-full "
               src={img1}
             />
           </div>
           <div>
             <img
-              className="object-cover "
+              className="object-cover  w-full h-full"
               src={img2}
             />
           </div>
           <div>
             <img
-              className="object-cover "
+              className="object-cover  w-full h-full "
               src={img3}
+              
             />
           </div>
           <div>
             <img
-              className="object-cover "
+              className="object-cover  w-full h-full"
               src={img4}
             />
           </div>
           <div>
             <img
-              className="object-cover "
+              className="object-cover  w-full h-full "
               src={img5}
             />
           </div>

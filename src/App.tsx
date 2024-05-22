@@ -32,7 +32,7 @@ function App() {
         <Map />
       </div>
       {/* Added FaQ segment as a proposal */}
-      <div className="mb-[100px] mt-[-20px]">
+      <div className="mb-[50px] mt-[-20px]">
         <SectionFAQ/>
       </div>
       <Footer />

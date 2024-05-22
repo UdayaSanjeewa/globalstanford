@@ -12,7 +12,7 @@ function AboutUsContent() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="mt-10 p-6 rounded-lg bg-gradient-to-r from-[#3d79aa] via-[#124a77] to-[#3d79aa] text-white"
+          className="mt-10 p-6 rounded-lg bg-gradient-to-r from-[#3d79aa] via-[#124a77] to-[#3d79aa] text-white shadow-custom"
         >
           <span className=" text-white font-bold font-serif ">
             Since GSC’s founding in 2018, GSC has established itself as a
@@ -30,7 +30,7 @@ function AboutUsContent() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="mt-10 p-6 font-bold rounded-lg bg-gradient-to-r from-[#3d79aa] via-[#124a77] to-[#3d79aa] text-white font-serif"
+          className="mt-10 p-6 font-bold rounded-lg bg-gradient-to-r from-[#3d79aa] via-[#124a77] to-[#3d79aa] text-white font-serif shadow-custom"
         >
           We offer UGC-recognized diplomas and degree programs that are
           internationally certified. Each course is designed according to
@@ -45,7 +45,7 @@ function AboutUsContent() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="mt-10 p-6 font-bold rounded-lg bg-gradient-to-r from-[#3d79aa] via-[#124a77] to-[#3d79aa] text-white font-serif"
+          className="mt-10 p-6 font-bold rounded-lg bg-gradient-to-r from-[#3d79aa] via-[#124a77] to-[#3d79aa] text-white font-serif shadow-custom"
         >
           GSC's founders addressed this issue by creating a unique learning
           environment specifically designed for working professionals. The
@@ -56,16 +56,16 @@ function AboutUsContent() {
       </div>
 
       {/* blue boxes div */}
-      <div className="flex flex-col gap-20 mt-20 text-white sm:gap-32 lg:flex-row font-catamaran">
+      <div className="flex flex-col gap-2 mt-20 text-white sm:gap-32 lg:flex-row font-catamaran">
         {/* blue box div */}
         <motion.div
           variants={fadeIn("right", 0.9)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="lg:w-[536px] h-[300px] sm:h-[250px] bg-[#000061] rounded-[10px] m-2"
+          className="lg:w-[536px] h-[300px] sm:h-[250px] bg-[#000061] rounded-[10px] m-2 shadow-custom"
         >
-          <p className="font-[700] text-[25px] ml-5 lg:ml-10 mt-10 font-serif">Vision</p>
+          <p className="font-[700] text-[25px] ml-5 lg:ml-10 mt-4 font-serif">Vision</p>
 
           <p className="lg:w-[415px] font-mono font-[400] text-[18px] ml-5 lg:ml-10 mt-5 leading-[1.9] tracking-wide ">
             To revolutionize studies in South Asia by creating a holistic
@@ -79,9 +79,9 @@ function AboutUsContent() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="lg:w-[536px] h-[300px] sm:h-[250px] bg-[#000061] rounded-[10px] m-2"
+          className="lg:w-[536px] h-[300px] sm:h-[250px] bg-[#000061] rounded-[10px] m-2 shadow-custom"
         >
-          <p className="font-[700] text-[25px] ml-5 lg:ml-10 mt-10 font-serif">Mission</p>
+          <p className="font-[700] text-[25px] ml-5 lg:ml-10 mt-4 font-serif">Mission</p>
 
           <p className="lg:w-[415px] font-mono font-[400] text-[18px] ml-5 lg:ml-10 mt-5 leading-[1.9] tracking-wide ">
             We empower South Asian students by providing innovative, holistic

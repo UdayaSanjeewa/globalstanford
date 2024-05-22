@@ -19,7 +19,7 @@ function AlumniDetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.2 }}
-        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px] font-catamaran">
           GSC isn't just a place you earn a degree, it's where you forge

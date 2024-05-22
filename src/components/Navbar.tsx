@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import gcsLogo from "../assets/gcs-logo.png"; // Update the path to your GCS logo
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,9 +14,14 @@ function Navbar() {
       {/* name div */}
       <div className={`${menuOpen ? "hidden" : "block"}`} id="x">
         <Link to={"/"}>
-          <h1 className="text-white md:text-[20px] text-xs font-mono pl-[19px] sm:pl-[69] font-[700]">
+          {/* logo Image*/}
+         <div className="flex justify-center items-center">
+         <img src={gcsLogo} className="h-8 w-8 block md:hidden " alt="" />
+         {/* logo Name */}
+          <h1 className="text-white md:text-[20px] text-xs font-mono pl-[10px] sm:pl-[69] font-[700]">
             Global Stanford Campus
           </h1>
+         </div>
         </Link>
       </div>
       {/* Hamburger menu for small screens */}

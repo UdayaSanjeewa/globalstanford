@@ -14,7 +14,7 @@ function PhdDBAPage() {
   }, [pathname]);
 
   return (
-    <div className="flex flex-col overflow-hidden bg-gradient-to-r from-blue-900/30 via-sky-900/50 to-blue-900/30">
+    <div className="flex flex-col overflow-hidden bg-gradient-to-r  from-blue-900/10  to-blue-900/10">
       <Navbar />
       <SubNavbar/>
       <BachelorsDegreeHeading title="Phd/DBA"/>
