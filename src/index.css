@@ -14,7 +14,7 @@
 
 .title2 {
   @apply text-[1.54rem] md:text-[3.125rem] leading-[1.1] font-semibold tracking-wide text-sky-800 animate-typing overflow-hidden 
-  whitespace-nowrap pr-5 font-sans;
+  whitespace-nowrap pr-5 font-serif;
 }
 
 .title3 {

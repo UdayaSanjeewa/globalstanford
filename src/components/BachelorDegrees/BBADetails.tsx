@@ -5,7 +5,7 @@ function BBADetails() {
   return (
     <div className="ml-[6%] mb-[5%] mr-[10%] sm:mr[10%]">
       <h1
-        className="font-catamaran  sm:text-[28px] mt-8 mb-4  text-[22px]  uppercase animate-typing overflow-hidden 
+        className="font-serif  sm:text-[28px] mt-8 mb-4  text-[22px]  uppercase animate-typing overflow-hidden 
                 whitespace-nowrap  pr-5 text-5xl text-sky-900 font-bold"
       >
         ABOUT THE PROGRAMME
@@ -45,7 +45,7 @@ function BBADetails() {
         </p>
       </motion.div>
       <h1
-        className="font-catamaran  sm:text-[28px] mt-8  text-[22px]  uppercase animate-typing overflow-hidden 
+        className="font-serif  sm:text-[28px] mt-8  text-[22px]  uppercase animate-typing overflow-hidden 
                 whitespace-nowrap  pr-5 text-5xl text-sky-900 font-bold mb-4"
       >
         Career Opportunities
@@ -66,7 +66,7 @@ function BBADetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.7 }}
-        className="font-catamaran text-[20px] sm:text-[26px] mt-6  text-sky-500 font-semibold"
+        className=" text-[20px] sm:text-[26px] mt-6  text-sky-500 font-semibold font-serif"
       >
         Senior Level Management Positions
       </motion.p>
@@ -78,7 +78,7 @@ function BBADetails() {
         viewport={{ once: true, amount: 0.4 }}
         className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
       >
-        <p className="text-[16px] sm:text-[18px]">
+        <p className="text-[16px] sm:text-[18px] ">
           <strong>Strategic Decision-Making: </strong>The BBA curriculum covers
           strategic management courses that hone your ability to analyze complex
           business situations, assess risks and opportunities, and make
@@ -116,7 +116,7 @@ function BBADetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.7 }}
-        className="font-catamaran text-[22px] sm:text-[28px] mt-6 mb-3 underline underline-offset-1  text-sky-500 font-semibold"
+        className="font-serif text-[22px] sm:text-[28px] mt-6 mb-3  underline-offset-1  text-sky-500 font-semibold"
       >
         Management Consultants
       </motion.p>

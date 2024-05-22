@@ -7,7 +7,7 @@ function AlumniDetails() {
   return (
     <div className="ml-[8%] mb-[5%] mr-[10%] sm:mr[10%] ">
       <h1
-        className="font-catamaran  sm:text-[28px] mt-12 mb-6  text-[24px]  uppercase animate-typing overflow-hidden 
+        className="font-serif  sm:text-[28px] mt-12 mb-6  text-[24px]  uppercase animate-typing overflow-hidden 
                 whitespace-nowrap  pr-5 text-5xl text-sky-900 font-bold"
       >
         WELCOME TO GSC ALUMNI ASSOCIATION
