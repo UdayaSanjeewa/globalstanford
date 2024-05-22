@@ -25,35 +25,45 @@ export default function SubNavBar2() {
         >
           <ul className="flex flex-col md:flex-row md:items-center gap-5 ml-[130px]">
             <li>
-              <Link
-                to={"/"}
-                className="text-sky-800 md:text-lg text-sm px-8 py-2 font-bold rounded cursor-pointer font-mono hover:text-white hover:bg-gradient-to-r from-red-500 hover:to-rose-500"
-              >
-                Home
+              <Link to={"/"}>
+                <button className="before:ease relative md:text-lg text-sm h-10 w-40 overflow-hidden border border-none font-mono font-bold text-sky-800 
+                 transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
+                  before:bg-rose-500 before:duration-300 hover:text-white hover:shadow-blue-900 rounded-xl hover:before:h-64 hover:before:-translate-y-32">
+                  <span className="relative z-10">Home</span>
+                </button>
               </Link>
             </li>
             <li>
-              <Link
-                to={"/cources"}
-                className="text-sky-800 md:text-lg text-sm px-8 py-2 font-bold rounded cursor-pointer font-mono hover:text-white hover:bg-gradient-to-r from-red-500 hover:to-rose-500"
-              >
-                Courses
+              <Link to={"/cources"}>
+              <button className="before:ease relative md:text-lg text-sm h-10 w-40 overflow-hidden border border-none font-mono font-bold text-sky-800 
+                 transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
+                  before:bg-rose-500 before:duration-300 hover:text-white hover:shadow-blue-900 rounded-xl hover:before:h-64 hover:before:-translate-y-32">
+                  <span className="relative z-10">Courses</span>
+                </button>
               </Link>
             </li>
             <li>
               <Link
                 to={"/about-us"}
-                className="text-sky-800 md:text-lg text-sm px-8 py-2 font-bold rounded cursor-pointer font-mono hover:text-white hover:bg-gradient-to-r from-red-500 hover:to-rose-500"
+                
               >
-                AboutUs
+                 <button className="before:ease relative md:text-lg text-sm h-10 w-40 overflow-hidden border border-none font-mono font-bold text-sky-800 
+                 transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
+                  before:bg-rose-500 before:duration-300 hover:text-white hover:shadow-blue-900 rounded-xl hover:before:h-64 hover:before:-translate-y-32">
+                  <span className="relative z-10">AboutUS</span>
+                </button>
               </Link>
             </li>
             <li>
               <Link
                 to={"/alumni"}
-                className="text-sky-800 md:text-lg text-sm px-8 py-2 font-bold rounded cursor-pointer font-mono hover:text-white hover:bg-gradient-to-r from-red-500 hover:to-rose-500"
+                
               >
-                Alumni
+                <button className="before:ease relative md:text-lg text-sm h-10 w-40 overflow-hidden border border-none font-mono font-bold text-sky-800 
+                 transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
+                  before:bg-rose-500 before:duration-300 hover:text-white hover:shadow-blue-900 rounded-xl hover:before:h-64 hover:before:-translate-y-32">
+                  <span className="relative z-10">Alumini</span>
+                </button>
               </Link>
             </li>
           </ul>
@@ -63,7 +73,9 @@ export default function SubNavBar2() {
         <div className="md:hidden flex justify-end items-center w-full">
           <button
             onClick={toggleMenu}
-            className={`text-gray-800 focus:outline-none ${menuOpen ? "fixed top-[50px] right-[10px]" : ""}`}
+            className={`text-gray-800 focus:outline-none ${
+              menuOpen ? "fixed top-[50px] right-[10px]" : ""
+            }`}
           >
             {menuOpen ? (
               <svg

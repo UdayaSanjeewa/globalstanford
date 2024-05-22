@@ -35,7 +35,7 @@
 }
 
 .gray-border {
-  @apply border-t-[8px] border-[#346daf]/40;
+  @apply border-t-[8px] border-[#346daf]/40  ;
 }
 
 .list-item-icon {
@@ -53,3 +53,6 @@
 .footer-item {
   @apply pb-[14px];
 }
+
+
+

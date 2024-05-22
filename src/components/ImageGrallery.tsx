@@ -8,7 +8,7 @@ import img5 from "../assets/Untitled-5.jpg";
 
 function ImageGrallery() {
   return (
-    <div className="flex md:flex-row flex-col justify-between max-w-[1100px] gap-3 mx-auto items-center md:mt-10 ">
+    <div className="flex md:flex-row flex-col justify-between max-w-[1100px] gap-3 mx-auto items-center md:mt-10 md:justify-center  ">
       <div className="md:w-[52%] w-full text-center md:text-left md:pt-1 pt-10 px-10 md:items-center md:pr-5 md:pb-5 md:pl-5  ">
         <h1 className="pb-3 title2 ">Start your Journey! </h1><br />
         <p className="subtitle ">
@@ -18,14 +18,14 @@ function ImageGrallery() {
        <span className="font-mono"> Join us for the ultimate adventure of a lifetime.</span>
         <br/>
         <br />
-        <span className=" text-rose-900 font-serif mt-4">
+        <span className=" text-rose-900 font-serif mt-4 ">
         We offer UGC-recognized diplomas and degree programs that are internationally certified!
         </span>
         </p>
       </div>
-      <div className="relative md:w-[48%] w-full">
+      <div className="relative md:w-[48%] w-full ">
         <Carousel>
-          <div>
+          <div className="md:mt-4">
             <img
               className="object-cover w-full h-full "
               src={img1}

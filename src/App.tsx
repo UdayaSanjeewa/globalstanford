@@ -25,14 +25,14 @@ function App() {
       <div>
         <Welcome />
       </div>
-      <div className="mb-[100px] md:mt-[70px]">
+      <div className="mb-[100px] md:mt-[70px] ">
         <ImageGrallery />
       </div>
-      <div className=" ">
+      <div className="gray-border ">
         <Map />
       </div>
       {/* Added FaQ segment as a proposal */}
-      <div className="mb-[50px] mt-[-20px]">
+      <div className="mb-[50px] mt-[-20px] gray-border">
         <SectionFAQ/>
       </div>
       <Footer />
