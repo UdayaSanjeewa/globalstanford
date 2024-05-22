@@ -15,7 +15,7 @@ function DegreeDetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.4 }}
-        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px] font-catamaran">
           The program is awarded by a U.G.C. Sri Lanka recognized university.
@@ -65,7 +65,7 @@ function DegreeDetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.4 }}
-        className="font-catamaran text-[20px] sm:text-[26px] mt-6 underline underline-offset-1  text-sky-500 font-semibold"
+        className="font-catamaran text-[20px] sm:text-[26px] mt-6  underline-offset-1  text-sky-500 font-semibold"
       >
         Senior Level Education Positions with Promotions
       </motion.p>
@@ -74,7 +74,7 @@ function DegreeDetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.4 }}
-        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px]">
           Bachelor of Science in Nursing degree can lead to senior-level
@@ -97,7 +97,7 @@ function DegreeDetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.4 }}
-        className="font-catamaran text-[20px] sm:text-[26px] mt-6 underline underline-offset-1  text-sky-500 font-semibold"
+        className="font-catamaran text-[20px] sm:text-[26px] mt-6  underline-offset-1  text-sky-500 font-semibold"
       >
         Migrating Opportunities
       </motion.p>
@@ -106,7 +106,7 @@ function DegreeDetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.4 }}
-        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px]">
           A Bsc might qualify you for postgraduate studies in nursing, which

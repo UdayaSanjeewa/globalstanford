@@ -21,10 +21,10 @@ function CourcesGallery() {
         viewport={{ once: false, amount: 0.1 }}
       >
         <Link to={"/bachelors-degree"}>
-          <div className="my-10">
+          <div className="my-10 shadow-custom rounded-2xl">
             <a href="">
-              <img src={freestyle} alt="" className="sm:h-[364px] w-full" />
-              <div className="h-[68px] bg-[#007FFF] w-full">
+              <img src={freestyle} alt="" className="sm:h-[364px] w-full rounded-t-2xl" />
+              <div className="h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
                 <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.3] tracking-wide">
                   Bachelor's Degrees
                 </h1>
@@ -41,10 +41,10 @@ function CourcesGallery() {
         viewport={{ once: false, amount: 0.1 }}
       >
         <Link to={"/master-degrees"}>
-          <div className="my-10">
+          <div className="my-10 shadow-custom rounded-2xl">
             <a href="">
-              <img src={lectureHall} alt="" className="sm:h-[364px] w-full" />
-              <div className="h-[68px] bg-[#007FFF] w-full">
+              <img src={lectureHall} alt="" className="sm:h-[364px] w-full rounded-t-2xl" />
+              <div className="h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
                 <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.3] tracking-wide">
                   Master’s Degrees
                 </h1>
@@ -61,11 +61,11 @@ function CourcesGallery() {
         viewport={{ once: false, amount: 0.1 }}
       >
         <Link to={"/phd-dba"}>
-          <div className="my-10">
+          <div className="my-10 shadow-custom rounded-2xl">
             <a href="">
-              <img src={conversation} alt="" className="sm:h-[364px] w-full" />
-              <div className="h-[68px] bg-[#007FFF] w-full">
-                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.3] tracking-wide">
+              <img src={conversation} alt="" className="sm:h-[364px] w-full rounded-t-2xl" />
+              <div className="h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
+                <h1 className="pt-[20px]  font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.3] tracking-wide">
                   PhD/DBA
                 </h1>
               </div>

@@ -7,7 +7,6 @@ function MasterDegrees() {
   return (
     <div className="bg-gradient-to-r  from-blue-900/10  to-blue-900/10 ">
       <Navbar />
-
       <SubNavbar />
       <Outlet />
       <Footer />

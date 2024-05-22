@@ -64,7 +64,7 @@ function MasterEducationContent() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="font-catamaran text-[22px] sm:text-[28px] mt-6 underline underline-offset-1  text-sky-500 font-semibold"
+          className="font-catamaran text-[22px] sm:text-[28px] mt-6 underline-offset-1  text-sky-500 font-semibold"
         >
           Senior Level Education Positions with Promotions
         </motion.p>
@@ -106,7 +106,7 @@ function MasterEducationContent() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="font-catamaran text-[22px] sm:text-[28px] mt-6 underline underline-offset-1  text-sky-500 font-semibold"
+          className="font-catamaran text-[22px] sm:text-[28px] mt-6 underline-offset-1  text-sky-500 font-semibold"
         >
           Migrating Opportunities
         </motion.p>

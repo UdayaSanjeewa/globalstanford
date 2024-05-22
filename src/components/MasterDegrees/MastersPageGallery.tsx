@@ -18,9 +18,9 @@ function MastersPageGallery() {
         viewport={{ once: false, amount: 0.5 }}
       >
         <Link to={"/master-degrees/mba-management"}>
-          <div className="my-10">
-            <img src={Management} alt="" className="sm:h-[364px] w-full" />
-            <div className="h-[68px] bg-[#007FFF] w-full">
+          <div className="my-10 shadow-custom rounded-2xl">
+            <img src={Management} alt="" className="sm:h-[364px] w-full rounded-t-2xl" />
+            <div className="h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
               <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.4] tracking-wide">
                 MBA in Management
               </h1>
@@ -37,9 +37,9 @@ function MastersPageGallery() {
         viewport={{ once: false, amount: 0.5 }}
       >
         <Link to={"/master-degrees/mba-bankingAndFinance"}>
-          <div className="my-10">
-            <img src={Banking} alt="" className="sm:h-[364px] w-full" />
-            <div className="h-[68px] bg-[#007FFF] w-full">
+          <div className="my-10 shadow-custom rounded-2xl">
+            <img src={Banking} alt="" className="sm:h-[364px] w-full rounded-t-2xl" />
+            <div className="h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
               <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.4] tracking-wide">
                 MBA in Banking and Finance
               </h1>
@@ -56,9 +56,9 @@ function MastersPageGallery() {
         viewport={{ once: false, amount: 0.5 }}
       >
         <Link to={"/master-degrees/master-education"}>
-          <div className="my-10">
-            <img src={Master} alt="" className="sm:h-[364px] w-full" />
-            <div className="h-[68px] bg-[#007FFF] w-full">
+          <div className="my-10 rounded-2xl shadow-custom">
+            <img src={Master} alt="" className="sm:h-[364px] w-full rounded-t-2xl" />
+            <div className="h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
               <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.4] tracking-wide">
                 Master of Education
               </h1>

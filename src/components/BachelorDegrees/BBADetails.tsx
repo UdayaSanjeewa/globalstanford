@@ -15,7 +15,7 @@ function BBADetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.4 }}
-        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px] font-catamaran ">
           The program is awarded by a U.G.C. Sri Lanka recognized university.
@@ -55,7 +55,7 @@ function BBADetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.7 }}
-        className="px-6 py-2 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="px-6 py-2 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px] font-catamaran">
           A BBA in Management opens doors to a variety of exciting career paths.
@@ -76,7 +76,7 @@ function BBADetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.4 }}
-        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px] ">
           <strong>Strategic Decision-Making: </strong>The BBA curriculum covers
@@ -125,7 +125,7 @@ function BBADetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.7 }}
-        className="p-4 mb-2 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="p-4 mb-2 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px]">
           A BBA in Management equips you with the skills to become a valuable
@@ -138,7 +138,7 @@ function BBADetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.4 }}
-        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px]">
           This program provides a strong foundation in core business areas like

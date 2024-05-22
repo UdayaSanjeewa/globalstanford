@@ -15,7 +15,7 @@ function DOPDetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.4 }}
-        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px] font-catamaran ">
         While a love of wisdom is still important, today's Doctor of Philosophy applies to individuals who have pursued knowledge in a much more specialized field. Think of it this way: in the past, a philosopher was like a generalist scholar, broadly versed in many subjects. Today's PhD is a specialist who has delved deeply into a specific area of knowledge.
@@ -52,7 +52,7 @@ function DOPDetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.7 }}
-        className="px-6 py-2 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="px-6 py-2 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px] font-catamaran">
         We are offer the opportunity to specialize in a particular
@@ -70,7 +70,7 @@ function DOPDetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.4 }}
-        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px]">
         A PhD is a prestigious qualification recognized worldwide. Universities and higher education institutions award it to candidates who have completed a rigorous program. The core requirement? Extensive and original research in their chosen field, culminating in a thesis or dissertation. This thesis is essentially a lengthy document presenting 
@@ -89,7 +89,7 @@ function DOPDetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.4 }}
-        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px]">
         Traditionally, a PhD program is a significant time investment. It typically involves three to four years of full-time study, though it can take up to six years or more for part-time students. During this period, the student conducts their research, takes coursework, and eventually writes up their thesis or dissertation.
@@ -114,7 +114,7 @@ function DOPDetails() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.4 }}
-        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30"
+        className="p-6 font-semibold rounded-lg bg-gradient-to-r from-sky-400/30 via-Cyan-400/30 to-blue-400/30 shadow-custom"
       >
         <p className="text-[16px] sm:text-[18px]">
           We are offer the opportunity to specialize in a particular area like
