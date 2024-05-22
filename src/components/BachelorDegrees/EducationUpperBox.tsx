@@ -9,7 +9,7 @@ function EducationUpperBox() {
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: false, amount: 0.7 }}
-      className="bg-[#011C3F] md:w-[500px] px-1 text-white font-catamaran rounded-[8px] ml-5 mr-2 py-1"
+      className="bg-[#011C3F] md:w-[500px] md:px-1 text-white font-catamaran rounded-[8px] md:ml-5 md:mr-2 md:py-1"
     >
       <div className="">
         <p className=" ml-[2%] text-[13px] sm:text-[18px] font-medium">

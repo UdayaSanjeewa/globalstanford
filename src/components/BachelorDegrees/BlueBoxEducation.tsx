@@ -5,7 +5,7 @@ import EducationUpperBox from "./EducationUpperBox";
 
 function BlueBoxEducation() {
   return (
-    <div className="relative h-[460px]">
+    <div className="relative h-[460px] overflow-hidden">
       <img src={bgImage} alt="" className="inset-0 w-full h-full" />
       <div className="absolute inset-0 bg-[#003478] opacity-75 ">
         <div className="flex-row md:flex gap-14">

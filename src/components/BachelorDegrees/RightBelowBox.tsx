@@ -9,7 +9,7 @@ function RightBelowBox(props: any) {
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: false, amount: 0.7 }}
-      className="bg-[#011C3F]  text-white font-catamaran rounded-[8px] ml-5 mr-2"
+      className="bg-[#011C3F]  text-white font-catamaran rounded-[8px] md:ml-5 md:mr-2 md:py-1 md:px-1"
     >
       <div className="flex flex-row pt-5 py-1 ml-[3%] sm:text-[16px] text-[12px]">
         <p className="font-bold ">Duration :</p>&nbsp;
