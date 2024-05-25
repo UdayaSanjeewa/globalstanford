@@ -51,7 +51,7 @@ function MbaManagementHeading() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
-        className='w-[300px] lg:w-[400px] xl:w-[610px] h-[80px] 2xl:h-[108px] lg:h-[180px] xl:h-[150px] bg-[#011C3F] rounded-[8px] text-white'>
+        className='w-[300px] lg:w-[400px] xl:w-[610px] h-[105px] 2xl:h-[108px] lg:h-[180px] xl:h-[150px] bg-[#011C3F] rounded-[8px] text-white'>
 
             <div
             

@@ -57,7 +57,7 @@ function MbaBankingHeading() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="w-[300px] lg:w-[400px] xl:w-[610px] h-[80px] 2xl:h-[108px] lg:h-[180px] xl:h-[150px] bg-[#011C3F] rounded-[8px] text-white"
+            className="w-[300px] lg:w-[400px] xl:w-[610px] h-[105px] 2xl:h-[108px] lg:h-[180px] xl:h-[150px] bg-[#011C3F] rounded-[8px] text-white"
 >
               <div className="font-catamaran font-[400] text-[10px] lg:text-[16px] ml-6 lg:ml-16 mt-2 lg:mt-5 xl:mt-5 2xl:mt-2">
                 <p>Duration : 18 Months </p>
