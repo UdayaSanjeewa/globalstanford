@@ -10,14 +10,14 @@ function BlueBox() {
     <div className="relative h-[460px]">
       <img src={bgImage} alt="" className="inset-0 w-full h-full" />
       <div className="absolute inset-0 bg-[#003478] opacity-75 ">
-        <div className="flex-row md:flex gap-14">
+        <div className="flex-row md:flex justify-between ">
           <motion.div
-           variants={fadeIn("right", 0.7)}
+           variants={fadeIn("right", 0.4)}
            initial="hidden"
            whileInView={"show"}
-           viewport={{ once: false, amount: 0.7 }}
+           viewport={{ once: true, amount: 0.1 }}
           >
-          <LeftBox title="Doctor of philosophy  ">
+          <LeftBox title="Doctor of philosophy  " >
             PhD stands for Doctor of Philosophy, but its meaning goes
             deeper than just a title. The word "philosophy" itself comes
             from ancient Greece, literally translating to "love of wisdom"
@@ -32,7 +32,7 @@ function BlueBox() {
            variants={fadeIn("left", 0.6)}
            initial="hidden"
            whileInView={"show"}
-           viewport={{ once: false, amount: 0.7 }}
+           viewport={{ once: true, amount: 0.1 }}
           >
             <UpperBox />
             </motion.div>
@@ -41,7 +41,7 @@ function BlueBox() {
            variants={fadeIn("left", 0.8)}
            initial="hidden"
            whileInView={"show"}
-           viewport={{ once: false, amount: 0.7 }}
+           viewport={{ once: true, amount: 0.1 }}
           >
               <RightBox duration="3 Years" />
               </motion.div>

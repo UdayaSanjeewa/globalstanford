@@ -1,6 +1,16 @@
+import { motion } from "framer-motion";
+import { fadeIn } from "../../variants";
+
+
 function DOPUpperBox() {
   return (
-    <div className="bg-[#011C3F] md:w-[500px] px-1 text-white font-catamaran rounded-[8px] ml-5 mr-2 py-1">
+    <motion.div
+    variants={fadeIn("left", 0.6)}
+    initial="hidden"
+    whileInView={"show"}
+    viewport={{ once: true, amount: 0.1 }}
+    className="bg-[#011C3F] md:w-[500px] md:px-1 text-white font-catamaran rounded-[8px] ml-5 mr-2 md:py-1 "
+  >
       <div className="">
         <p className=" ml-[2%] text-[13px] sm:text-[18px] font-medium">
           Entry Requirements
@@ -11,7 +21,7 @@ function DOPUpperBox() {
           </li>
         </ul>
       </div>
-    </div>
+      </motion.div>
   );
 }
 export default DOPUpperBox;
