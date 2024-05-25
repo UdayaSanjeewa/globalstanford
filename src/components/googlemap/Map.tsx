@@ -10,6 +10,7 @@ const map: FC = () => {
           className="w-full"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.1779672595894!2d79.890089!3d6.869266887871538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25b7f14e461ff%3A0xfd71a95c18a59b7d!2sGlobal%20Stanford%20Campus!5e0!3m2!1sen!2slk!4v1716571926992!5m2!1sen!2slk"
         ></iframe>
+        {/* Nugegoda */}
       </div>
       <div className="relative md:w-[48%] border-blue-700 border-2">
         <iframe
