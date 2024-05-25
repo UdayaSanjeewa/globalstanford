@@ -34,7 +34,7 @@ function ImageGrallery() {
        variants={fadeIn("down", 0.6)}
        initial="hidden"
        whileInView={"show"}
-       viewport={{ once: false, amount: 0.5 }}
+       viewport={{ once: true, amount: 0.5 }}
       className="relative md:w-[48%] w-full ">
         <Carousel>
           <div className="md:mt-4">
