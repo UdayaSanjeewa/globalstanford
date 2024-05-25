@@ -5,11 +5,18 @@ import img2 from "../assets/Untitled-2.jpg";
 import img3 from "../assets/Untitled-3.jpg";
 import img4 from "../assets/Untitled-4.jpg";
 import img5 from "../assets/Untitled-5.jpg";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 
 function ImageGrallery() {
   return (
     <div className="flex md:flex-row flex-col justify-between max-w-[1100px] gap-3 mx-auto items-center md:mt-10 md:justify-center  ">
-      <div className="md:w-[52%] w-full text-center md:text-left md:pt-1 pt-10 px-10 md:items-center md:pr-5 md:pb-5 md:pl-5  ">
+        <motion.div
+        variants={fadeIn("up", 0.6)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: true, amount: 0.4 }}
+         className="md:w-[52%] w-full text-center md:text-left md:pt-1 pt-10 px-10 md:items-center md:pr-5 md:pb-5 md:pl-5  ">
         <h2 className="pb-3 title2 ">Start your Journey! </h2><br />
         <p className="subtitle ">
         <span className="">Explore the</span> <br /><span className="font-bold font-mono">
@@ -22,7 +29,7 @@ function ImageGrallery() {
         We offer UGC-recognized diplomas and degree programs that are internationally certified!
         </span>
         </p>
-      </div>
+      </motion.div>
       <div className="relative md:w-[48%] w-full ">
         <Carousel>
           <div className="md:mt-4">

@@ -26,7 +26,7 @@
 }
 
 .subtitle {
-  @apply text-[1.125rem] md:text-[1.625rem] leading-[1.1] font-light text-black;
+  @apply text-[1.125rem] md:text-[1.425rem] leading-[1.1] font-light text-black;
 }
 
 .blue-button {

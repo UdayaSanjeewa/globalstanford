@@ -40,11 +40,11 @@ const map: FC = () => {
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: true, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.4 }}
         className="md:w-[52%] w-full text-center md:text-left pt-4 px-10 md:items-center md:p-5 "
       >
         <h1
-          className="pb-3 title2 md:text-xl  animate-typingfont-inter text-[45px]  md:mt-[13px] uppercase animate-typing overflow-hidden 
+          className="pb-3 title2 md:text-xl  animate-typingfont-inter text-[65px]  md:mt-[13px] uppercase animate-typing overflow-hidden 
                 whitespace-nowrap  pr-5  text-sky-900 font-bold"
         >
           Find our Location

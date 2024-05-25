@@ -23,7 +23,7 @@ export default function SubNavBar2() {
             menuOpen ? "block" : "hidden"
           } md:flex md:items-center md:gap-[4vw] gap-12`}
         >
-          <ul className="flex flex-col md:flex-row md:items-center gap-16 md:ml-[130px] mr-auto">
+          <ul className="flex flex-col md:flex-row md:items-center md:gap-16 md:ml-[130px] mr-auto ml-[150px]">
             <li>
               <Link to={"/"}>
                 <button className="before:ease relative md:text-lg text-sm h-10 w-20 overflow-hidden border border-none font-mono font-bold text-sky-800 
