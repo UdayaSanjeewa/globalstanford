@@ -13,12 +13,12 @@ const logo: FC = () => {
             variants={fadeIn("right", 0.6)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
+            viewport={{ once: true, amount: 0.1 }}
             className="flex mt-[17px]  mb-2"
             
           >
-            <img src={gcsLogo} className="h-[77px] w-[70px] pb-2" alt="" />
-            <div className="font-merriweather text-[14px] font-[700] pt-1 ">
+            <img src={gcsLogo} className="md:h-[77px] h-[65px] w-[70px] pb-2" alt="" />
+            <div className="font-merriweather text-[10px] sm:text-[14px] font-[700] pt-1 ">
               <h2>Global</h2>
               <h2>Stanford</h2>
               <h2 className="text-red-600">CAMPUS</h2>

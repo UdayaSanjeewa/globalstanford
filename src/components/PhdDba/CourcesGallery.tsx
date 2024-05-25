@@ -64,7 +64,7 @@ function CourcesGallery() {
           <div className="my-10 shadow-custom rounded-2xl">
             <a href="">
               <img src={conversation} alt="" className="w-full sm:h-full rounded-t-2xl" />
-              <div className="sm:h-[75px] h-[68px] bg-[#007FFF] w-full rounded-b-2xll">
+              <div className="sm:h-[75px] h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
                 <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[17px] text-[15px] leading-[1.3] tracking-wide">
                   PhD/DBA
                 </h1>
