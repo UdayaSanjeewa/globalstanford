@@ -4,8 +4,9 @@ import img2 from "../../assets/AlumniImages/2.jpg";
 import img3 from "../../assets/AlumniImages/3.jpg";
 import img4 from "../../assets/AlumniImages/4.jpg";
 import img5 from "../../assets/AlumniImages/5.jpg";
-import img6 from "../../assets/AlumniImages/6.jpg";
-import img7 from "../../assets/AlumniImages/7.jpeg";
+import img6 from "../../assets/AlumniImages/6.jpeg";
+import img7 from "../../assets/AlumniImages/7.jpg";
+
 
 function AlumniImage() {
   return (
@@ -32,7 +33,7 @@ function AlumniImage() {
         </div>
         <div>
           <img className="object-cover " src={img7} />
-        </div>
+        </div>             
       </Carousel>
     </div>
   );
