@@ -23,10 +23,10 @@ export default function SubNavBar2() {
             menuOpen ? "block" : "hidden"
           } md:flex md:items-center md:gap-[4vw] gap-12`}
         >
-          <ul className="flex flex-col md:flex-row md:items-center gap-5 ml-[130px]">
+          <ul className="flex flex-col md:flex-row md:items-center gap-16 md:ml-[130px] mr-auto">
             <li>
               <Link to={"/"}>
-                <button className="before:ease relative md:text-lg text-sm h-10 w-40 overflow-hidden border border-none font-mono font-bold text-sky-800 
+                <button className="before:ease relative md:text-lg text-sm h-10 w-20 overflow-hidden border border-none font-mono font-bold text-sky-800 
                  transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
                   before:bg-rose-500 before:duration-300 hover:text-white hover:shadow-blue-900 rounded-xl hover:before:h-64 hover:before:-translate-y-32">
                   <span className="relative z-10">Home</span>
@@ -35,7 +35,7 @@ export default function SubNavBar2() {
             </li>
             <li>
               <Link to={"/cources"}>
-              <button className="before:ease relative md:text-lg text-sm h-10 w-40 overflow-hidden border border-none font-mono font-bold text-sky-800 
+              <button className="before:ease relative md:text-lg text-sm h-10 w-20 overflow-hidden border border-none font-mono font-bold text-sky-800 
                  transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
                   before:bg-rose-500 before:duration-300 hover:text-white hover:shadow-blue-900 rounded-xl hover:before:h-64 hover:before:-translate-y-32">
                   <span className="relative z-10">Courses</span>
@@ -47,7 +47,7 @@ export default function SubNavBar2() {
                 to={"/about-us"}
                 
               >
-                 <button className="before:ease relative md:text-lg text-sm h-10 w-40 overflow-hidden border border-none font-mono font-bold text-sky-800 
+                 <button className="before:ease relative md:text-lg text-sm h-10 w-20 overflow-hidden border border-none font-mono font-bold text-sky-800 
                  transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
                   before:bg-rose-500 before:duration-300 hover:text-white hover:shadow-blue-900 rounded-xl hover:before:h-64 hover:before:-translate-y-32">
                   <span className="relative z-10">AboutUS</span>
@@ -59,7 +59,7 @@ export default function SubNavBar2() {
                 to={"/alumni"}
                 
               >
-                <button className="before:ease relative md:text-lg text-sm h-10 w-40 overflow-hidden border border-none font-mono font-bold text-sky-800 
+                <button className="before:ease relative md:text-lg text-sm h-10 w-20 overflow-hidden border border-none font-mono font-bold text-sky-800 
                  transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
                   before:bg-rose-500 before:duration-300 hover:text-white hover:shadow-blue-900 rounded-xl hover:before:h-64 hover:before:-translate-y-32">
                   <span className="relative z-10">Alumni</span>
