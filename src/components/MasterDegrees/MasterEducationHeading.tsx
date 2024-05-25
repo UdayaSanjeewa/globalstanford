@@ -47,10 +47,10 @@ function MasterEducationHeading() {
             className="w-[300px] lg:w-[400px] xl:w-[610px] lg:h-[108px] bg-[#011C3F] rounded-[8px] text-white"
           >
             <p className="font-catamaran font-500 mt-2 ml-5 text-[16px] lg:text-[18px] lg:mt-4 lg:ml-10">
-              Entry Requirements
+              <b>Entry Requirements</b>
             </p>
             <p className="h-[25.92px] font-catamaran font-[400] text-[10px] lg:text-[16px] ml-6 lg:ml-16 mt-2">
-              Any recognized bachelor degree in Education related Or PHDE
+              Any recognized bachelor degree in Education related or PHDE
             </p>
           </motion.div>
 
@@ -62,23 +62,23 @@ function MasterEducationHeading() {
             viewport={{ once: false, amount: 0.7 }}
             className="w-[300px] lg:w-[400px] xl:w-[610px] h-[105px] 2xl:h-[108px] lg:h-[180px] xl:h-[150px] bg-[#011C3F] rounded-[8px] text-white"
           >
-            <div className="font-catamaran font-[400] text-[10px] lg:text-[16px] ml-6 lg:ml-16 mt-2 lg:mt-5 xl:mt-5 2xl:mt-2">
-              <p>Duration : 18 Months </p>
+            <div className="font-catamaran font-[400] text-[10px] lg:text-[16px] ml-6 lg:ml-10 mt-2 lg:mt-5 xl:mt-5 2xl:mt-2">
+              <p> <b>Duration :</b>  18 Months </p>
               <p>
-                Credits :{" "}
+                <b>Credits :{" "}</b>
                 <span className="font-[400]">
                   60 credits (Equivalent to 2 Years)
                 </span>{" "}
               </p>
               <p>
-                Intakes :{" "}
+                <b>Intakes :{" "}</b>
                 <span className="font-[400]">
                   {" "}
                   Call us at 070 747 7771 / 070 747 7772 for intake information.
                 </span>
               </p>
               <p>
-                Fees :{" "}
+                <b>Fees :{" "}</b>
                 <span className="font-[400]">
                   {" "}
                   Call us at 070 747 7771 / 070 747 7772 for For fees and payment information
