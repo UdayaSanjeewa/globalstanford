@@ -8,6 +8,8 @@ import Map from "../src/components/googlemap/Map";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import SectionFAQ from "./components/FAQ";
+import FeedBack from "./components/FeedBack";
+
 
 function App() {
   const { pathname } = useLocation();
@@ -30,6 +32,9 @@ function App() {
       </div>
       <div className="gray-border ">
         <Map />
+      </div>
+      <div className="gray-border">
+        <FeedBack/>
       </div>
       {/* Added FaQ segment as a proposal */}
       <div className="mb-[50px] mt-[-20px] gray-border">
