@@ -6,7 +6,12 @@ import { Carousel } from "react-responsive-carousel";
 const map: FC = () => {
   return (
     <div className="flex md:flex-row flex-col-reverse justify-between max-w-[1100px] gap-3 md:mx-auto items-center  pb-[30px] md:mt-5 m-2 ">
-      <div className="flex flex-col ml-[1%] mt-[5%] mr-[1%] sm:mr[10%] justify-items-center sm:px-[10%] ">
+      <motion.div 
+       variants={fadeIn("right", 0.6)}
+       initial="hidden"
+       whileInView={"show"}
+       viewport={{ once: true, amount: 0.5 }}
+      className="flex flex-col ml-[1%] mt-[5%] mr-[1%] sm:mr[10%] justify-items-center sm:px-[10%] ">
         <Carousel className="sm:h-[518] sm:w-[778]">
           <div className="relative ">
             <iframe
@@ -34,7 +39,7 @@ const map: FC = () => {
             ></iframe>
           </div>
         </Carousel>
-      </div>
+      </motion.div>
 
       <motion.div
         variants={fadeIn("up", 0.6)}

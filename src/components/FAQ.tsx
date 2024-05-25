@@ -43,31 +43,68 @@ const SectionFAQ = () => {
   return (
     <div className="mb-7">
       <motion.h1
-       variants={fadeIn("up", 0.6)}
-       initial="hidden"
-       whileInView={"show"}
-       viewport={{ once: false, amount: 0.5 }}
-      className="w-full md:mb-[-20px] text-center title3 max-w-[1100px] mx-auto md:py-[70px] px-[30px] pt-3 mb-1 ">
+        variants={fadeIn("up", 0.6)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.5 }}
+        className="w-full md:mb-[-20px] text-center title3 max-w-[1100px] mx-auto md:py-[70px] px-[30px] pt-3 mb-1 "
+      >
         Frequently Asked Questions
       </motion.h1>
-      <div className="mb-1">
+      <motion.div
+        variants={fadeIn("up", 0.4)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: true, amount: 0.4 }}
+        className="mb-1"
+      >
         <FAQ FAQ="What is Global Stanford Campus ?" Cont={con1} />
-      </div>
-      <div className="mb-1">
+      </motion.div>
+      <motion.div
+        variants={fadeIn("up", 0.6)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: true, amount: 0.5 }}
+        className="mb-1"
+      >
         <FAQ FAQ="What are Top-Up Degrees ?" Cont={con2} />
-      </div>
-      <div className="mb-1">
+      </motion.div>
+      <motion.div
+        variants={fadeIn("up", 0.6)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: true, amount: 0.5 }}
+        className="mb-1"
+      >
         <FAQ FAQ="How to Register ?" Cont={con3} />
-      </div>
-      <div className="mb-1">
+      </motion.div>
+      <motion.div
+        variants={fadeIn("up", 0.6)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: true, amount: 0.5 }}
+        className="mb-1"
+      >
         <FAQ FAQ="What About the Payment?" Cont={con4} />
-      </div>
-      <div className="mb-1">
+      </motion.div>
+      <motion.div
+        variants={fadeIn("up", 0.6)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: true, amount: 0.5 }}
+        className="mb-1"
+      >
         <FAQ FAQ="How the Lectures are helding ?" Cont={con5} />
-      </div>
-      <div className="mb-1">
+      </motion.div>
+      <motion.div
+        variants={fadeIn("up", 0.6)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: true, amount: 0.5 }}
+        className="mb-1"
+      >
         <FAQ FAQ="How to Get The UGC Letter" Cont={con6} />
-      </div>
+      </motion.div>
       <div>
         <div className="pb-4 m-2 text-xl text-center text-[#003478] font-bold pt-7 font-mono md:text-3xl">
           Ready to start? Enter your email to get more details your Degree
