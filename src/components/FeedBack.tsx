@@ -11,9 +11,39 @@ function FeedBack() {
     <>
       {/* First div - visible on small screens only */}
       <div className="flex md:hidden flex-col my-2 py-2 mx-4 md:gap-6 pb-10">
-      <div className="md:w-[52%] w-full text-center md:text-left md:pt-1 pt-[10px] px-10 md:items-center md:pr-5 md:pb-5 md:pl-5">
-      <h2 className="pb-3 text-[1.14rem] md:text-[2.0rem] leading-[1.1] font-semibold tracking-wide text-[#003478] animate-typing overflow-hidden 
-  whitespace-nowrap pr-5 font-serif">Student FeedBacks </h2></div>
+      <div className="md:w-[52%] w-full text-center md:text-left md:pt-1 pt-10 px-10 md:items-center md:pr-5 md:pb-5 md:pl-5">
+          <h2
+            className="pb-3 text-[1.24rem] md:text-[2.0rem] leading-[1.1] font-semibold tracking-wide text-[#003478] animate-typing overflow-hidden 
+          whitespace-nowrap pr-5 font-serif"
+          >
+            What Our Students Say{" "}
+          </h2>
+          <br />
+          <p className="text-[1.125rem] md:text-[1.425rem] leading-[1.1] font-light text-black">
+            <span className="">"Most Effective and Succesfull Programme."</span>{" "}
+            <br />
+            <span className="font-bold font-mono">
+              Ms. N.A.L Kumudu Nimali
+            </span>{" "} <br />
+            <span className="">"I am Really Happy and satisfied with the Campus"</span>{" "}
+            <br />
+            <span className="font-bold font-mono">
+              Ms.J.S. Faiza
+            </span>{" "}
+            <br />
+            <br />
+            <span className="font-mono">
+              The service and Help available are top-notch. We make you to
+              have a better experience
+            </span>
+            <br />
+            <br />
+            <span className="text-rose-900 font-serif mt-4">
+              The community of Global Stanford Campus is incredibly supportive and inspiring. Our Students will
+              grown both academically and personally
+            </span>
+          </p>
+        </div>
         <div>
           <img
             className="object-cover w-full h-full shadow-custom rounded-2xl my-2"
@@ -53,24 +83,31 @@ function FeedBack() {
             className="pb-3 text-[1.24rem] md:text-[2.0rem] leading-[1.1] font-semibold tracking-wide text-[#003478] animate-typing overflow-hidden 
           whitespace-nowrap pr-5 font-serif"
           >
-            Student FeedBacks{" "}
+            What Our Students Say{" "}
           </h2>
           <br />
-          <p className="subtitle">
-            <span className="">Explore the</span> <br />
+          <p className="text-[1.125rem] md:text-[1.425rem] leading-[1.1] font-light text-black">
+            <span className="">"Most Effective and Succesfull Programme."</span>{" "}
+            <br />
             <span className="font-bold font-mono">
-              Global Stanford Campus
+              Ms. N.A.L Kumudu Nimali
+            </span>{" "} <br />
+            <span className="">"I am Really Happy and satisfied with the Campus"</span>{" "}
+            <br />
+            <span className="font-bold font-mono">
+              Ms.J.S. Faiza
             </span>{" "}
             <br />
             <br />
             <span className="font-mono">
-              Join us for the ultimate adventure of a lifetime.
+              The service and Help available are top-notch. We make you to
+              have a better experience
             </span>
             <br />
             <br />
             <span className="text-rose-900 font-serif mt-4">
-              We offer UGC-recognized diplomas and degree programs that are
-              internationally certified!
+              The community of Global Stanford Campus is incredibly supportive and inspiring. Our Students will
+              grown both academically and personally
             </span>
           </p>
         </div>
