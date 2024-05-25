@@ -14,21 +14,21 @@ function Card() {
       // initial="hidden"
       // whileInView={"show"}
       // viewport={{ once: false, amount: 0.7 }}
-      className="sm:grid grid-cols-3 gap-6 my-[10vh] mx-[10vh] "
+      className="sm:grid grid-cols-3 gap-[8%] my-[10vh] mx-[10vh] "
     >
       <motion.div
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: false, amount: 0.5 }}
-        className=" "
+        viewport={{ once:true, amount: 0.1 }}
+        className=""
       >
         <Link to={"/bachelors-degree/bba-management"}>
           <div className="my-10 shadow-custom rounded-2xl">
             <a href="">
-              <img src={img1} alt="" className="sm:h-[364px] w-full rounded-t-2xl" />
-              <div className="h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
-                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.3] tracking-wide">
+              <img src={img1} alt="" className="w-full sm:h-full rounded-t-2xl" />
+              <div className="sm:h-[75px] h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
+                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[17px] text-[17px] leading-[1.3] tracking-wide">
                   BBA in Management
                 </h1>
               </div>
@@ -41,14 +41,14 @@ function Card() {
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.1 }}
       >
         <Link to={"/bachelors-degree/bachelor-of-education"}>
           <div className="my-10 shadow-custom rounded-2xl">
             <a href="">
-              <img src={img2} alt="" className="sm:h-[364px] w-full rounded-t-2xl" />
-              <div className="h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
-                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.3] tracking-wide">
+              <img src={img2} alt="" className="w-full sm:h-full rounded-t-2xl" />
+              <div className="sm:h-[75px] h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
+                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[17px]  text-[15px] leading-[1.3] tracking-wide">
                   Bachelor of Education
                 </h1>
               </div>
@@ -61,14 +61,14 @@ function Card() {
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.1 }}
       >
         <Link to={"/bachelors-degree/bachelor-of-science-in-nursing"}>
           <div className="my-10 shadow-custom rounded-2xl">
             <a href="">
-              <img src={img3} alt="" className="sm:h-[364px] w-full rounded-t-2xl" />
-              <div className="h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
-                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[25px] text-[15px] leading-[1.3] tracking-wide">
+              <img src={img3} alt="" className="w-full sm:h-full rounded-t-2xl" />
+              <div className="sm:h-[75px] h-[68px] bg-[#007FFF] w-full rounded-b-2xl">
+                <h1 className="pt-[20px] font-extrabold text-white font-mono text-center md:text-[17px] text-[15px] leading-[1.3] tracking-wide">
                   Bachelor of Science In Nursing
                 </h1>
               </div>
