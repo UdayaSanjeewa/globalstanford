@@ -14,7 +14,7 @@ function Footer() {
     <div className="bg-[#003478]  flex  justify-center items-center">
      
       <div className="max-w-[1000px] text-white py-[20px] px-[45px] w-[90%] ">
-        <h2 className="mb-4">AnyQuestions? Contact us</h2>
+        <h2 className="mb-4">Any Questions? Contact us</h2>
         <div className="grid md:grid-cols-4 grid-cols-2 text-[13px] gap-1 ">
           {/* programs */}
           <div>
@@ -51,7 +51,7 @@ function Footer() {
               <div className="sm:block hidden">
                 <FaMobileAlt />
               </div>
-              <span className="p-2 ">070 7477771</span>
+              <span className="p-2 ">+94 70 747 7771</span>
             </div>
             <div className="flex items-center gap-2 footer-item">
               <div className="sm:block hidden">
