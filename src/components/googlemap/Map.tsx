@@ -49,14 +49,14 @@ const map: FC = () => {
         className="md:w-[52%] w-full text-center md:text-left pt-4 px-10 md:items-center md:p-5 "
       >
         <h1
-          className="pb-3 title2 md:text-xl  animate-typingfont-inter text-[65px]  md:mt-[13px] uppercase animate-typing overflow-hidden 
-                whitespace-nowrap  pr-5  text-sky-900 font-bold"
+          className="pb-3  md:text-xl  animate-typingfont-inter md:text-[30px] text-[17.5px]  md:mt-[13px] uppercase animate-typing overflow-hidden 
+                whitespace-nowrap  pr-5  text-sky-900 font-bold  font-serif text-center"
         >
-          Find our Location
+          Find our Locations
         </h1>
         <p className="subtitle font-serif ">
-          From the heart of Stanford to the corners of Nugegoda, Ampara, and
-          Badulla, our global footprint connects minds worldwide.
+          From the heart of Stanford to the corners of <br /><span className="font-bold text-rose-900"> Nugegoda,</span> <br /><span className="font-bold text-rose-900">Ampara,</span><br /><span className="font-bold text-rose-900">Matara ,</span> 
+          <br /><span className="font-bold text-rose-900">Badulla.</span> <br /> Our global footprint connects minds worldwide.
         </p>
       </motion.div>
     </div>
