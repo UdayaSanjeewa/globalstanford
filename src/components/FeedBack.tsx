@@ -12,7 +12,7 @@ function FeedBack() {
   return (
     <>
       {/* First div - visible on small screens only */}
-      <div className="flex md:hidden flex-col my-2 py-2 mx-4 md:gap-6 pb-10">
+      <div className="flex md:hidden flex-col my-2 py-2 mx-4 md:gap-6 pb-10 mb-4">
         <motion.div
           variants={fadeIn("up", 0.3)}
           initial="hidden"

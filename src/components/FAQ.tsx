@@ -183,7 +183,7 @@ const FAQ = (props: any) => {
           </li>
           <li>
             <div
-              className={`grid overflow-hidden transition-all duration-300 ease-in-out text-black text-sm bg-gradient-to-r from-blue-400/90 to-sky-700/40 rounded-b-md mx-4 pl-2 py-2 ${
+              className={`grid overflow-hidden transition-all duration-300 ease-in-out text-black text-sm bg-gradient-to-r from-blue-600/90 to-sky-600/90 rounded-b-md mx-4 pl-2 py-2 ${
                 accordionOpen
                   ? "grid-rows-[1fr] opacity-100"
                   : "grid-rows-[0fr] opacity-0"
