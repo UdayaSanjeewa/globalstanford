@@ -28,15 +28,15 @@ function FeedBack() {
           </h2>
           <br />
           <p className="text-[1.125rem] md:text-[1.425rem] leading-[1.1] font-light text-black">
-            <span className="">"Most Effective and Succesfull Programme."</span>{" "}
+            <span className="mb-1">"Most Effective and Succesfull Programme."</span>
             <br />
             <span className="font-bold font-mono">
               Ms. N.A.L Kumudu Nimali
-            </span>{" "}
+            </span>
             <br />
             <span className="">
               "I am Really Happy and satisfied with the Campus"
-            </span>{" "}
+            </span>
             <br />
             <span className="font-bold font-mono">Ms.J.S. Faiza</span> <br />
             <br />
