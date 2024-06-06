@@ -57,16 +57,18 @@ const map: FC = () => {
         >
           Find our Locations
         </h1>
-        <p className="subtitle font-serif ">
-          From the heart of Stanford to the corners of <br />
-          <span className="font-bold text-rose-900"> Nugegoda,</span> <br />
-          <span className="font-bold text-rose-900">Ampara,</span>
-          <br />
-          <span className="font-bold text-rose-900">Matara ,</span>
-          <br />
-          <span className="font-bold text-rose-900">Badulla.</span> <br /> Our
-          global footprint connects minds worldwide.
-        </p>
+        <p className="subtitle font-serif">
+    From the heart of Stanford to the corners of
+    <br />
+    <ul>
+        <li className="font-bold text-rose-900">Nugegoda,</li>
+        <li className="font-bold text-rose-900">Ampara,</li>
+        <li className="font-bold text-rose-900">Matara,</li>
+        <li className="font-bold text-rose-900">Badulla.</li>
+    </ul>
+    Our global footprint connects minds worldwide.
+</p>
+
       </motion.div>
     </div>
   );
