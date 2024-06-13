@@ -58,17 +58,25 @@ const map: FC = () => {
           Find our Locations
         </h1>
         <p className="subtitle font-serif">
-    From the heart of Stanford to the corners of
-    <br />
-    <ul>
-        <li className="font-bold text-rose-900">Nugegoda,</li>
-        <li className="font-bold text-rose-900">Ampara,</li>
-        <li className="font-bold text-rose-900">Matara,</li>
-        <li className="font-bold text-rose-900">Badulla.</li>
-    </ul>
-    Our global footprint connects minds worldwide.
-</p>
+          From the heart of Stanford to the corners of
+          <br />
+          <ul>
+  <li className="font-bold text-rose-900">
+    <span role="img" aria-label="pushpin">📌</span> Nugegoda,
+  </li>
+  <li className="font-bold text-rose-900">
+    <span role="img" aria-label="pushpin">📌</span> Ampara,
+  </li>
+  <li className="font-bold text-rose-900">
+    <span role="img" aria-label="pushpin">📌</span> Matara,
+  </li>
+  <li className="font-bold text-rose-900">
+    <span role="img" aria-label="pushpin">📌</span> Badulla.
+  </li>
+</ul>
 
+          Our global footprint connects minds worldwide.
+        </p>
       </motion.div>
     </div>
   );

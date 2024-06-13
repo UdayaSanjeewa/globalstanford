@@ -77,12 +77,12 @@ function Footer() {
               Nugegoda, Sri Lanka
             </div>
           </div>
-          {/* <div>
+          <div>
             <div className="footer-item">Media Center</div>
             <div className="footer-item">Terms of Use</div>
             <div className="footer-item">Contact Us</div>
             <div></div>
-          </div> */}
+          </div>
 
           {/* Icons */}
           <div className="ml-8 sm:block hidden">
