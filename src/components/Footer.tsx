@@ -85,7 +85,7 @@ function Footer() {
           </div>
 
           {/* Icons */}
-          <div className="ml-8 sm:block hidden">
+          <div className="ml-8 sm:block hidden md:flex md:gap-x-5">
             <div className="text-xl footer-item">
               <FaFacebookF />
             </div>
