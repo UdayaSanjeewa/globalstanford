@@ -12,7 +12,6 @@ import { IoHomeOutline } from "react-icons/io5";
 function Footer() {
   return (
     <div className="bg-[#003478]  flex  justify-center items-center">
-     
       <div className="max-w-[1000px] text-white py-[20px] px-[45px] w-[90%] ">
         <h2 className="mb-4">Any Questions? Contact us</h2>
         <div className="grid md:grid-cols-4 grid-cols-2 text-[13px] gap-1 ">
@@ -37,7 +36,13 @@ function Footer() {
               <div className="footer-item">Home</div>
             </Link>
             <div className="footer-item">Payments Policy</div>
-            <div className="footer-item">Privacy Policy</div>
+            <Link
+              to={
+                "https://www.termsfeed.com/live/f7b1c143-7271-48aa-ba27-93ee017508b5"
+              }
+            >
+              <div className="footer-item">Privacy Policy</div>
+            </Link>
             <div className="footer-item">Quality Policy</div>
             <Link to={"/about-us"}>
               <div className="footer-item">About Us</div>
@@ -48,25 +53,25 @@ function Footer() {
           <div>
             <div className="footer-item  font-[700] md:text-xl">Contact Us</div>
             <div className="flex items-center gap-2 footer-item">
-              <div className="sm:block hidden">
+              <div className="hidden sm:block">
                 <FaMobileAlt />
               </div>
               <span className="p-2 ">+94 70 747 7771</span>
             </div>
             <div className="flex items-center gap-2 footer-item">
-              <div className="sm:block hidden">
+              <div className="hidden sm:block">
                 <TbDeviceLandlinePhone />
               </div>
               +94 11 445 5155
             </div>
             <div className="flex items-center gap-2 footer-item">
-              <div className="sm:block hidden">
+              <div className="hidden sm:block">
                 <MdOutlineMailOutline />
               </div>
               info@globalstanfordcampus.com
             </div>
             <div className="flex items-start gap-2 footer-item">
-              <div className="sm:block hidden">
+              <div className="hidden sm:block">
                 {" "}
                 <IoHomeOutline className="mt-1" />
               </div>
@@ -85,10 +90,13 @@ function Footer() {
           </div>
 
           {/* Icons */}
-          <div className="ml-8 sm:block hidden md:flex md:gap-x-5">
-            <div className="text-xl footer-item">
+          <div className="hidden ml-8 sm:block md:flex md:gap-x-5">
+            <Link
+              to={"https://www.facebook.com/profile.php?id=100057587164421"}
+              className="text-xl footer-item"
+            >
               <FaFacebookF />
-            </div>
+            </Link>
             <div className="text-xl footer-item">
               <IoLogoWhatsapp />
             </div>
@@ -104,7 +112,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="text-center text-gray-500 text-sm mt-4">
+        <div className="mt-4 text-sm text-center text-gray-500">
           &copy; 2024 Global stanford campus. All Rights Reserved.
         </div>
       </div>
