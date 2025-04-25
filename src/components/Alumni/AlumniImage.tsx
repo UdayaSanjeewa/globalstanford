@@ -1,5 +1,5 @@
 import { Carousel } from "react-responsive-carousel";
-import img1 from "../../assets/AlumniImages/1.jpg";
+// import img1 from "../../assets/AlumniImages/1.jpg";
 import img2 from "../../assets/AlumniImages/2.jpg";
 import img3 from "../../assets/AlumniImages/3.jpg";
 import img4 from "../../assets/AlumniImages/4.jpg";
@@ -13,9 +13,9 @@ function AlumniImage() {
     <div className="flex flex-col ml-[1%] mb-[5%] mr-[1%] sm:mr[10%] justify-items-center sm:px-[10%]">
       {/* Apply Carousel to Alumni Page */}
       <Carousel className="sm:h-[518] sm:w-[778]">
-        <div>
+        {/* <div>
           <img className="object-cover " src={img1} />
-        </div>
+        </div> */}
         <div>
           <img className="object-cover " src={img2} />
         </div>
