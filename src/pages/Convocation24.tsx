@@ -4,6 +4,7 @@ import MarketSection from "../components/MarketSection";
 import Gallery from "../components/Gallery";
 import Navbar from "../components/Navbar";
 import SubNavbar from "../components/SubNavbar";
+import Footer from "../components/Footer";
 
 function Convocation24() {
   return (
@@ -16,6 +17,7 @@ function Convocation24() {
       <ProfileSection />
       <MarketSection />
       <Gallery />
+      <Footer />
     </div>
   );
 }

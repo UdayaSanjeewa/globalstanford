@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import ProfileSection from "../components/ProfileSection";
 import MarketSection from "../components/MarketSection";
 import Gallery from "../components/Gallery";
+import Footer from "../components/Footer";
 
 function Convocation25() {
   return (
@@ -10,6 +11,7 @@ function Convocation25() {
       <ProfileSection />
       <MarketSection />
       <Gallery />
+      <Footer />
     </div>
   );
 }
