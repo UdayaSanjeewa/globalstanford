@@ -148,11 +148,3 @@ export default function SubNavBar2() {
     </header>
   );
 }
-
-/* ✅ Tailwind button styles (move to your CSS file if needed) */
-const btnClasses =
-  "before:ease relative md:text-lg text-sm h-10 w-32 overflow-hidden border border-none font-mono font-bold text-sky-800 transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-rose-500 before:duration-300 hover:text-white hover:shadow-blue-900 rounded-xl hover:before:h-64 hover:before:-translate-y-32";
-
-function NavButton({ children }: { children: React.ReactNode }) {
-  return <button className={btnClasses}>{children}</button>;
-}
