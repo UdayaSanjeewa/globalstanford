@@ -23,6 +23,8 @@ import PhdDBAPage from "./pages/PhdDBAPage.tsx";
 import DoctorOfPhilosophy from "./pages/DOPPage.tsx";
 import CourcesPage from "./pages/CourcesPage.tsx";
 import ApplyNowPage from "./pages/ApplyNowPages.tsx";
+import Convocation24 from "./pages/Convocation24.tsx";
+import Convocation25 from "./pages/Convocation25.tsx";
 
 const router = createBrowserRouter([
   {
@@ -74,6 +76,14 @@ const router = createBrowserRouter([
   {
     path: "/about-us",
     element: <AboutUs />,
+  },
+    {
+    path: "/convocation24",
+    element: <Convocation24 />,
+  },
+      {
+    path: "/convocation25",
+    element: <Convocation25 />,
   },
   {
     path: "/payments",
