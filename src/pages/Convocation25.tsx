@@ -1,10 +1,10 @@
-import Hero from "../components/Hero";
-import ProfileSection from "../components/ProfileSection";
-import MarketSection from "../components/MarketSection";
 import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import SubNavbar from "../components/SubNavbar";
+import ProfileSection2025 from "../components/ProfileSection2025";
+import MarketSection2025 from "../components/MarketSection2025";
+import Hero2025 from "../components/Hero2025";
 
 function Convocation25() {
   return (
@@ -13,9 +13,9 @@ function Convocation25() {
         <Navbar />
         <SubNavbar />
       </div>
-      <Hero />
-      <ProfileSection />
-      <MarketSection />
+      <Hero2025 />
+      <ProfileSection2025 />
+      <MarketSection2025 />
       <Gallery />
       <Footer />
     </div>

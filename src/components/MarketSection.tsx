@@ -2,17 +2,14 @@ import React from 'react';
 
 const MarketSection: React.FC = () => {
   return (
-    <div className="py-20 px-6 bg-white">
+    <div className="px-6 py-20 bg-white">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-gray-800 mb-12 section-fade-in">
+        <h2 className="mb-12 text-4xl font-light text-gray-800 md:text-5xl lg:text-6xl section-fade-in">
           Celebration & Community
         </h2>
         
-        <p className="text-lg md:text-xl text-gray-600 leading-relaxed section-fade-in">
-          Join us in celebrating this momentous occasion with fellow graduates, families, and faculty. 
-          Experience the vibrant atmosphere of achievement as we honor the dedication and perseverance 
-          that brought us to this special day. The ceremony brings together diverse voices and 
-          stories, creating memories that will last a lifetime.
+        <p className="text-lg leading-relaxed text-gray-600 md:text-xl section-fade-in">
+          The graduation ceremony united students, families, and faculty in a joyous celebration. With words of inspiration from distinguished guests, the event honored not only personal achievement but also the shared spirit of community and national progress through education.
         </p>
       </div>
     </div>

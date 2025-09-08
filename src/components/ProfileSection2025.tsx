@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProfileSection: React.FC = () => {
+const ProfileSection2025: React.FC = () => {
   return (
     <div className="px-6 py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto">
@@ -24,7 +24,7 @@ const ProfileSection: React.FC = () => {
             </h2>
             
             <p className="max-w-2xl text-lg leading-relaxed text-gray-600 md:text-xl">
-              Global Stanford Campus proudly celebrates the success of 500 graduates who earned degrees across Education, Management, IT, and Nursing. Their dedication and perseverance reflect the campus’s commitment to academic growth, international recognition, and preparing leaders for tomorrow.
+              Global Stanford Campus marked a major milestone with over 1,200 graduates from branches in Kiribathgoda, Kandy, Matara, Ampara, and Bandulla receiving their degrees. Students completed programs in Education, Management, IT, and Nursing through classroom, online, and blended learning. Degrees awarded included Bachelor’s, Postgraduate Diplomas, Master’s, and Doctoral programs, affirming the institution’s commitment to world-class education.
             </p>
           </div>
         </div>
@@ -33,4 +33,4 @@ const ProfileSection: React.FC = () => {
   );
 };
 
-export default ProfileSection;
+export default ProfileSection2025;
