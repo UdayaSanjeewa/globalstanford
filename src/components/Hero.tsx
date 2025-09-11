@@ -3,25 +3,26 @@ import { GraduationCap } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div className="relative flex items-center justify-center min-h-screen overflow-hidden">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-center bg-no-repeat bg-cover"
         style={{
-          backgroundImage: 'url("https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop")'
+          // backgroundImage: 'url("https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop")'
+          backgroundImage: 'url("/2024.svg")'
         }}
       />
       
       {/* Overlay */}
-      <div className="hero-overlay absolute inset-0" />
+      <div className="absolute inset-0 hero-overlay" />
       
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
-        <div className="mb-8 flex justify-center">
+      <div className="relative z-10 max-w-4xl px-6 mx-auto text-center text-white">
+        <div className="flex justify-center mb-8">
           <GraduationCap className="w-16 h-16 text-amber-400" />
         </div>
         
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-light mb-4 text-shadow leading-tight">
+        <h1 className="mb-4 text-4xl font-light leading-tight md:text-6xl lg:text-7xl text-shadow">
           The Graduation Ceremony
         </h1>
         
@@ -29,8 +30,8 @@ const Hero: React.FC = () => {
           2024
         </div>
         
-        <div className="bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 inline-block">
-          <p className="text-lg md:text-xl font-medium">
+        <div className="inline-block px-6 py-3 rounded-full bg-white/20 backdrop-blur-sm">
+          <p className="text-lg font-medium md:text-xl">
             @globalstanfordcampus
           </p>
         </div>

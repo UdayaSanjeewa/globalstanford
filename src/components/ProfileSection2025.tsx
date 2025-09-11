@@ -9,7 +9,7 @@ const ProfileSection2025: React.FC = () => {
           <div className="flex-shrink-0 section-fade-in">
             <div className="overflow-hidden profile-image w-80 h-80 md:w-96 md:h-96 rounded-2xl">
               <img 
-                src="https://images.pexels.com/photos/5940721/pexels-photo-5940721.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&fit=crop"
+                src="/profile2024.jpeg"
                 alt="Graduate Portrait"
                 className="object-cover w-full h-full"
               />

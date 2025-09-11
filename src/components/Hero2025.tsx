@@ -8,7 +8,8 @@ const Hero2025: React.FC = () => {
       <div 
         className="absolute inset-0 bg-center bg-no-repeat bg-cover"
         style={{
-          backgroundImage: 'url("https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop")'
+          // backgroundImage: 'url("https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop")'
+          backgroundImage: 'url("/2024.svg")'
         }}
       />
       
