@@ -31,6 +31,36 @@ const Gallery2025: React.FC = () => {
       src: "/2025/img06.jpeg",
       alt: "Graduates Celebrating",
       caption: "Class of 2025"
+    },
+        {
+      src: "/2025/img13.jpeg",
+      alt: "Graduates Celebrating",
+      caption: "Class of 2025"
+    },
+        {
+      src: "/2025/img14.jpeg",
+      alt: "Graduates Celebrating",
+      caption: "Class of 2025"
+    },
+        {
+      src: "/2025/img06.jpeg",
+      alt: "Graduates Celebrating",
+      caption: "Class of 2025"
+    },
+        {
+      src: "/2025/img06.jpeg",
+      alt: "Graduates Celebrating",
+      caption: "Class of 2025"
+    },
+        {
+      src: "/2025/img06.jpeg",
+      alt: "Graduates Celebrating",
+      caption: "Class of 2025"
+    },
+        {
+      src: "/2025/img06.jpeg",
+      alt: "Graduates Celebrating",
+      caption: "Class of 2025"
     }
   ];
 
@@ -54,11 +84,6 @@ const Gallery2025: React.FC = () => {
                   alt={image.alt}
                   className="object-cover w-full h-full transition-transform duration-500 hover:scale-105"
                 />
-              </div>
-              <div className="p-6">
-                <h3 className="text-lg font-semibold text-center text-gray-800">
-                  {image.caption}
-                </h3>
               </div>
             </div>
           ))}

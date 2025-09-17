@@ -1,36 +1,66 @@
-import React from 'react';
+import React from "react";
 
 const Gallery2024: React.FC = () => {
   const galleryImages = [
     {
       src: "/2024/img01.jpeg",
       alt: "Graduation Ceremony Hall",
-      caption: "Grand Auditorium"
+      caption: "Grand Auditorium",
     },
     {
       src: "/2024/img02.jpeg",
       alt: "Graduate with Diploma",
-      caption: "Achievement Moment"
+      caption: "Achievement Moment",
     },
     {
       src: "/2024/img03.jpeg",
       alt: "Graduates Celebrating",
-      caption: "Class of 2025"
+      caption: "Class of 2025",
     },
-        {
+    {
       src: "/2024/img04.jpeg",
       alt: "Graduation Ceremony Hall",
-      caption: "Grand Auditorium"
+      caption: "Grand Auditorium",
     },
     {
       src: "/2024/img05.jpeg",
       alt: "Graduate with Diploma",
-      caption: "Achievement Moment"
+      caption: "Achievement Moment",
     },
     {
       src: "/2024/img06.jpeg",
       alt: "Graduates Celebrating",
-      caption: "Class of 2025"
+      caption: "Class of 2025",
+    },
+    {
+      src: "/2024/img07.jpeg",
+      alt: "Graduates Celebrating",
+      caption: "Class of 2025",
+    },
+    {
+      src: "/2024/img08.jpeg",
+      alt: "Graduates Celebrating",
+      caption: "Class of 2025",
+    },
+    {
+      src: "/2024/img09.jpeg",
+      alt: "Graduates Celebrating",
+      caption: "Class of 2025",
+    },
+    {
+      src: "/2024/img10.jpeg",
+      alt: "Graduates Celebrating",
+      caption: "Class of 2025",
+    },
+    {
+      src: "/2024/img11.jpeg",
+      alt: "Graduates Celebrating",
+      caption: "Class of 2025",
+    },
+    {
+      src: "/2024/img12.jpeg",
+      alt: "Graduates Celebrating",
+      caption: "Class of 2025",
     }
   ];
 
@@ -40,25 +70,20 @@ const Gallery2024: React.FC = () => {
         <h2 className="mb-16 text-4xl font-light text-center text-gray-800 md:text-5xl section-fade-in">
           Memorable Moments
         </h2>
-        
+
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {galleryImages.map((image, index) => (
-            <div 
+            <div
               key={index}
               className="overflow-hidden bg-white shadow-lg card-hover rounded-2xl section-fade-in"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="overflow-hidden aspect-square">
-                <img 
+                <img
                   src={image.src}
                   alt={image.alt}
                   className="object-cover w-full h-full transition-transform duration-500 hover:scale-105"
                 />
-              </div>
-              <div className="p-6">
-                <h3 className="text-lg font-semibold text-center text-gray-800">
-                  {image.caption}
-                </h3>
               </div>
             </div>
           ))}
