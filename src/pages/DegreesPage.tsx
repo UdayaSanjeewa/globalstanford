@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import CourcesGallery from "../components/PhdDba/CourcesGallery";
 import SubNavbar from "../components/SubNavbar";
 import DegreesGallery from "../components/PhdDba/DegreesGallery";
 
