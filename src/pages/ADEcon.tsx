@@ -4,6 +4,9 @@ import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
+/* Images */
+import backgroundImg from "../../public/diplomas/background.jpeg";
+
 function ADEcon() {
   return (
     <div className="bg-gradient-to-r from-blue-900/10 to-blue-900/10">
@@ -11,8 +14,24 @@ function ADEcon() {
       <SubNavbar />
 
       {/* HERO */}
-      <div className="relative h-[420px]">
+      {/* <div className="relative h-[420px]">
         <div className="absolute inset-0 bg-[#003478] opacity-90 flex items-center">
+          <div className="ml-[6%] text-white max-w-4xl">
+            <h1 className="text-[26px] sm:text-[40px] font-extrabold font-catamaran">
+              Advanced Diploma in Economics
+            </h1>
+            <p className="mt-4 text-[16px] sm:text-[18px]">
+              SLQF Level 04 • 4 Semesters • 60 Credits • Online / Blended
+            </p>
+          </div>
+        </div>
+      </div> */}
+      <div
+        className="relative h-[420px] bg-cover bg-center"
+        style={{ backgroundImage: `url(${backgroundImg})` }}
+      >
+        {/* Blue economics gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#003478]/95 to-[#003478]/70 flex items-center">
           <div className="ml-[6%] text-white max-w-4xl">
             <h1 className="text-[26px] sm:text-[40px] font-extrabold font-catamaran">
               Advanced Diploma in Economics
@@ -26,31 +45,46 @@ function ADEcon() {
 
       {/* CONTENT */}
       <div className="ml-[6%] mr-[10%] mb-[6%]">
-
         {/* Programme Overview */}
         <SectionTitle title="Programme Overview" />
         <AnimatedBox>
           <p>
-            The Advanced Diploma in Economics is an intensive, career-focused program
-            designed for school leavers and working professionals seeking high-level
-            skills in Economics.
+            The Advanced Diploma in Economics is an intensive, career-focused
+            program designed for school leavers and working professionals
+            seeking high-level skills in Economics.
           </p>
           <p className="mt-4">
-            The program delves into advanced economic theories, strategic applications,
-            and emerging global trends. The curriculum is scaffolded to progressively
-            build complexity and integrate knowledge across business and economic domains.
+            The program delves into advanced economic theories, strategic
+            applications, and emerging global trends. The curriculum is
+            scaffolded to progressively build complexity and integrate knowledge
+            across business and economic domains.
           </p>
         </AnimatedBox>
 
         {/* Learning Outcomes */}
         <SectionTitle title="Program Learning Outcomes (PLOs)" />
         <AnimatedBox>
-          <ul className="list-decimal ml-6 space-y-3">
-            <li>Analyze complex economic and business problems using advanced frameworks.</li>
-            <li>Design and implement sophisticated economic strategies and solutions.</li>
-            <li>Evaluate ethical, social, and global implications in professional practice.</li>
-            <li>Synthesize information from multiple sources to support decision-making.</li>
-            <li>Communicate complex economic concepts effectively to diverse audiences.</li>
+          <ul className="ml-6 space-y-3 list-decimal">
+            <li>
+              Analyze complex economic and business problems using advanced
+              frameworks.
+            </li>
+            <li>
+              Design and implement sophisticated economic strategies and
+              solutions.
+            </li>
+            <li>
+              Evaluate ethical, social, and global implications in professional
+              practice.
+            </li>
+            <li>
+              Synthesize information from multiple sources to support
+              decision-making.
+            </li>
+            <li>
+              Communicate complex economic concepts effectively to diverse
+              audiences.
+            </li>
             <li>Lead and collaborate in cross-functional and virtual teams.</li>
           </ul>
         </AnimatedBox>
@@ -58,10 +92,16 @@ function ADEcon() {
         {/* Teaching Methodology */}
         <SectionTitle title="Teaching & Learning Methodology" />
         <AnimatedBox>
-          <ul className="list-disc ml-6 space-y-3">
-            <li><b>LMS:</b> Canvas / Moodle / Blackboard</li>
-            <li><b>Asynchronous:</b> Recorded lectures, readings, simulations</li>
-            <li><b>Synchronous:</b> Live Zoom / Teams sessions</li>
+          <ul className="ml-6 space-y-3 list-disc">
+            <li>
+              <b>LMS:</b> Canvas / Moodle / Blackboard
+            </li>
+            <li>
+              <b>Asynchronous:</b> Recorded lectures, readings, simulations
+            </li>
+            <li>
+              <b>Synchronous:</b> Live Zoom / Teams sessions
+            </li>
             <li>
               <b>Assessment:</b> Case studies, research papers, projects,
               presentations, portfolios, peer reviews
@@ -72,7 +112,7 @@ function ADEcon() {
         {/* Student Support */}
         <SectionTitle title="Student Support Services" />
         <AnimatedBox>
-          <ul className="list-disc ml-6 space-y-3">
+          <ul className="ml-6 space-y-3 list-disc">
             <li>Dedicated Program Advisor</li>
             <li>Online tutoring & academic writing support</li>
             <li>Technical & LMS support</li>
@@ -84,7 +124,7 @@ function ADEcon() {
         {/* Admission */}
         <SectionTitle title="Admission Requirements" />
         <AnimatedBox>
-          <ul className="list-disc ml-6 space-y-3">
+          <ul className="ml-6 space-y-3 list-disc">
             <li>Completed application form</li>
             <li>Current CV / Resume</li>
             <li>Minimum 3 passes in GCE A/L</li>
@@ -168,17 +208,11 @@ function AnimatedBox({ children }: { children: React.ReactNode }) {
   );
 }
 
-function Semester({
-  title,
-  items,
-}: {
-  title: string;
-  items: string[];
-}) {
+function Semester({ title, items }: { title: string; items: string[] }) {
   return (
     <div className="mt-6">
-      <h3 className="font-bold text-sky-700 mb-2">{title}</h3>
-      <ul className="list-disc ml-6 space-y-1">
+      <h3 className="mb-2 font-bold text-sky-700">{title}</h3>
+      <ul className="ml-6 space-y-1 list-disc">
         {items.map((item, index) => (
           <li key={index}>{item}</li>
         ))}

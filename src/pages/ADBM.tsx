@@ -4,6 +4,9 @@ import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
+/* Images */
+import backgroundImg from "../../public/diplomas/background.jpeg";
+
 function ADBM() {
   return (
     <div className="bg-gradient-to-r from-blue-900/10 to-blue-900/10">
@@ -11,8 +14,24 @@ function ADBM() {
       <SubNavbar />
 
       {/* HERO */}
-      <div className="relative h-[420px]">
+      {/* <div className="relative h-[420px]">
         <div className="absolute inset-0 bg-[#003478] opacity-90 flex items-center">
+          <div className="ml-[6%] text-white max-w-4xl">
+            <h1 className="text-[26px] sm:text-[40px] font-extrabold font-catamaran">
+              Advanced Diploma in Business Management
+            </h1>
+            <p className="mt-4 text-[16px] sm:text-[18px]">
+              SLQF Level 04 • 4 Semesters • 60 Credits • Online / Blended
+            </p>
+          </div>
+        </div>
+      </div> */}
+      <div
+        className="relative h-[420px] bg-cover bg-center"
+        style={{ backgroundImage: `url(${backgroundImg})` }}
+      >
+        {/* Blue business gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#003478]/95 to-[#003478]/70 flex items-center">
           <div className="ml-[6%] text-white max-w-4xl">
             <h1 className="text-[26px] sm:text-[40px] font-extrabold font-catamaran">
               Advanced Diploma in Business Management
@@ -26,7 +45,6 @@ function ADBM() {
 
       {/* CONTENT */}
       <div className="ml-[6%] mr-[10%] mb-[6%]">
-
         {/* Programme Overview */}
         <SectionTitle title="Programme Overview" />
         <AnimatedBox>
@@ -47,7 +65,7 @@ function ADBM() {
         {/* Learning Outcomes */}
         <SectionTitle title="Program Learning Outcomes (PLOs)" />
         <AnimatedBox>
-          <ul className="list-decimal ml-6 space-y-3">
+          <ul className="ml-6 space-y-3 list-decimal">
             <li>Analyze complex business and management problems.</li>
             <li>Design and implement effective business strategies.</li>
             <li>Evaluate ethical, social, and global business implications.</li>
@@ -60,10 +78,16 @@ function ADBM() {
         {/* Teaching Methodology */}
         <SectionTitle title="Teaching & Learning Methodology" />
         <AnimatedBox>
-          <ul className="list-disc ml-6 space-y-3">
-            <li><b>LMS:</b> Canvas / Moodle / Blackboard</li>
-            <li><b>Asynchronous:</b> Recorded lectures, readings, simulations</li>
-            <li><b>Synchronous:</b> Live Zoom / Teams sessions</li>
+          <ul className="ml-6 space-y-3 list-disc">
+            <li>
+              <b>LMS:</b> Canvas / Moodle / Blackboard
+            </li>
+            <li>
+              <b>Asynchronous:</b> Recorded lectures, readings, simulations
+            </li>
+            <li>
+              <b>Synchronous:</b> Live Zoom / Teams sessions
+            </li>
             <li>
               <b>Assessment:</b> Case studies, research papers, projects,
               presentations, portfolios, peer reviews
@@ -74,7 +98,7 @@ function ADBM() {
         {/* Student Support */}
         <SectionTitle title="Student Support Services" />
         <AnimatedBox>
-          <ul className="list-disc ml-6 space-y-3">
+          <ul className="ml-6 space-y-3 list-disc">
             <li>Dedicated Program Advisor</li>
             <li>Online tutoring & academic writing support</li>
             <li>Technical & LMS support</li>
@@ -86,7 +110,7 @@ function ADBM() {
         {/* Admission */}
         <SectionTitle title="Admission Requirements" />
         <AnimatedBox>
-          <ul className="list-disc ml-6 space-y-3">
+          <ul className="ml-6 space-y-3 list-disc">
             <li>Completed application form</li>
             <li>Current CV / Resume</li>
             <li>Minimum 3 passes in GCE A/L</li>
@@ -97,7 +121,6 @@ function ADBM() {
         {/* Curriculum */}
         <SectionTitle title="Detailed Curriculum" />
         <AnimatedBox>
-
           <Semester
             title="Semester 1 – Foundations of Business & Marketing (15 Credits)"
             items={[
@@ -140,7 +163,6 @@ function ADBM() {
               "Research Project / Optional Subjects",
             ]}
           />
-
         </AnimatedBox>
       </div>
 
@@ -175,17 +197,11 @@ function AnimatedBox({ children }: { children: React.ReactNode }) {
   );
 }
 
-function Semester({
-  title,
-  items,
-}: {
-  title: string;
-  items: string[];
-}) {
+function Semester({ title, items }: { title: string; items: string[] }) {
   return (
     <div className="mt-6">
-      <h3 className="font-bold text-sky-700 mb-2">{title}</h3>
-      <ul className="list-disc ml-6 space-y-1">
+      <h3 className="mb-2 font-bold text-sky-700">{title}</h3>
+      <ul className="ml-6 space-y-1 list-disc">
         {items.map((item, index) => (
           <li key={index}>{item}</li>
         ))}

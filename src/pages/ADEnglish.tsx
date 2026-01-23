@@ -4,6 +4,9 @@ import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
+/* Images */
+import backgroundImg from "../../public/diplomas/background.jpeg";
+
 function ADEnglish() {
   return (
     <div className="bg-gradient-to-r from-blue-900/10 to-blue-900/10">
@@ -11,8 +14,24 @@ function ADEnglish() {
       <SubNavbar />
 
       {/* HERO */}
-      <div className="relative h-[420px]">
+      {/* <div className="relative h-[420px]">
         <div className="absolute inset-0 bg-[#003478] opacity-90 flex items-center">
+          <div className="ml-[6%] text-white max-w-4xl">
+            <h1 className="text-[26px] sm:text-[40px] font-extrabold font-catamaran">
+              Advanced Diploma in English
+            </h1>
+            <p className="mt-4 text-[16px] sm:text-[18px]">
+              SLQF Level 04 • 4 Semesters • 60 Credits • Online / Blended
+            </p>
+          </div>
+        </div>
+      </div> */}
+      <div
+        className="relative h-[420px] bg-cover bg-center"
+        style={{ backgroundImage: `url(${backgroundImg})` }}
+      >
+        {/* Blue academic gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#003478]/95 to-[#003478]/70 flex items-center">
           <div className="ml-[6%] text-white max-w-4xl">
             <h1 className="text-[26px] sm:text-[40px] font-extrabold font-catamaran">
               Advanced Diploma in English
@@ -26,19 +45,20 @@ function ADEnglish() {
 
       {/* CONTENT */}
       <div className="ml-[6%] mr-[10%] mb-[6%]">
-
         {/* Programme Overview */}
         <SectionTitle title="Programme Overview" />
         <AnimatedBox>
           <p>
-            The Advanced Diploma in English Language is an intensive, career-focused program
-            designed for school leavers and working professionals seeking high-level skills
-            in English. The curriculum moves beyond foundational knowledge, delving into
-            advanced theories, strategic applications, and emerging trends.
+            The Advanced Diploma in English Language is an intensive,
+            career-focused program designed for school leavers and working
+            professionals seeking high-level skills in English. The curriculum
+            moves beyond foundational knowledge, delving into advanced theories,
+            strategic applications, and emerging trends.
           </p>
           <p className="mt-4">
-            The scaffolded learning model ensures students progressively build complexity
-            and integrate knowledge across linguistic, communication, and literary domains.
+            The scaffolded learning model ensures students progressively build
+            complexity and integrate knowledge across linguistic, communication,
+            and literary domains.
           </p>
         </AnimatedBox>
 
@@ -46,11 +66,26 @@ function ADEnglish() {
         <SectionTitle title="Program Learning Outcomes (PLOs)" />
         <AnimatedBox>
           <ul className="ml-6 space-y-3 list-decimal">
-            <li>Analyze complex problems in language and communication using advanced frameworks.</li>
-            <li>Design and implement effective strategies to solve real-world communication challenges.</li>
-            <li>Evaluate ethical, social, and global implications of language use and teaching.</li>
-            <li>Synthesize information from diverse sources to support decision-making.</li>
-            <li>Communicate complex information effectively to specialist and non-specialist audiences.</li>
+            <li>
+              Analyze complex problems in language and communication using
+              advanced frameworks.
+            </li>
+            <li>
+              Design and implement effective strategies to solve real-world
+              communication challenges.
+            </li>
+            <li>
+              Evaluate ethical, social, and global implications of language use
+              and teaching.
+            </li>
+            <li>
+              Synthesize information from diverse sources to support
+              decision-making.
+            </li>
+            <li>
+              Communicate complex information effectively to specialist and
+              non-specialist audiences.
+            </li>
             <li>Lead and collaborate in virtual and cross-functional teams.</li>
           </ul>
         </AnimatedBox>
@@ -59,12 +94,21 @@ function ADEnglish() {
         <SectionTitle title="Teaching & Learning Methodology" />
         <AnimatedBox>
           <ul className="ml-6 space-y-3 list-disc">
-            <li><b>LMS:</b> Canvas / Moodle / Blackboard</li>
-            <li><b>Asynchronous:</b> Recorded lectures, readings, simulations, discussion boards</li>
-            <li><b>Synchronous:</b> Optional live virtual classes for Q&A, guest lectures, and collaboration</li>
             <li>
-              <b>Assessment:</b> Case studies, research papers, individual & group projects,
-              professional presentations, portfolios, and peer reviews
+              <b>LMS:</b> Canvas / Moodle / Blackboard
+            </li>
+            <li>
+              <b>Asynchronous:</b> Recorded lectures, readings, simulations,
+              discussion boards
+            </li>
+            <li>
+              <b>Synchronous:</b> Optional live virtual classes for Q&A, guest
+              lectures, and collaboration
+            </li>
+            <li>
+              <b>Assessment:</b> Case studies, research papers, individual &
+              group projects, professional presentations, portfolios, and peer
+              reviews
             </li>
           </ul>
         </AnimatedBox>
@@ -77,7 +121,10 @@ function ADEnglish() {
             <li>Online tutoring & writing center support</li>
             <li>Technical support for LMS and access issues</li>
             <li>Online library & research resources</li>
-            <li>Career services including workshops, CV reviews, and mock interviews</li>
+            <li>
+              Career services including workshops, CV reviews, and mock
+              interviews
+            </li>
           </ul>
         </AnimatedBox>
 
@@ -88,7 +135,10 @@ function ADEnglish() {
             <li>Completed application form</li>
             <li>Current resume/CV</li>
             <li>Minimum 3 passes from GCE A/L</li>
-            <li>OR earned diploma of SLQF Level 03 or equivalent (minimum 30 credits)</li>
+            <li>
+              OR earned diploma of SLQF Level 03 or equivalent (minimum 30
+              credits)
+            </li>
           </ul>
         </AnimatedBox>
 
@@ -168,13 +218,7 @@ function AnimatedBox({ children }: { children: React.ReactNode }) {
   );
 }
 
-function Semester({
-  title,
-  items,
-}: {
-  title: string;
-  items: string[];
-}) {
+function Semester({ title, items }: { title: string; items: string[] }) {
   return (
     <div className="mt-6">
       <h3 className="mb-2 font-bold text-sky-700">{title}</h3>

@@ -4,6 +4,9 @@ import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
+/* Images */
+import backgroundImg from "../../public/diplomas/background.jpeg";
+
 function ADTH() {
   return (
     <div className="bg-gradient-to-r from-blue-900/10 to-blue-900/10">
@@ -11,8 +14,24 @@ function ADTH() {
       <SubNavbar />
 
       {/* HERO */}
-      <div className="relative h-[420px]">
+      {/* <div className="relative h-[420px]">
         <div className="absolute inset-0 bg-[#003478] opacity-90 flex items-center">
+          <div className="ml-[6%] text-white max-w-4xl">
+            <h1 className="text-[26px] sm:text-[40px] font-extrabold font-catamaran">
+              Advanced Diploma in Tourism and Hospitality
+            </h1>
+            <p className="mt-4 text-[16px] sm:text-[18px]">
+              SLQF Level 04 • 4 Semesters • 60 Credits • Online / Blended
+            </p>
+          </div>
+        </div>
+      </div> */}
+      <div
+        className="relative h-[420px] bg-cover bg-center"
+        style={{ backgroundImage: `url(${backgroundImg})` }}
+      >
+        {/* Blue hospitality gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#003478]/95 to-[#003478]/70 flex items-center">
           <div className="ml-[6%] text-white max-w-4xl">
             <h1 className="text-[26px] sm:text-[40px] font-extrabold font-catamaran">
               Advanced Diploma in Tourism and Hospitality
@@ -26,15 +45,14 @@ function ADTH() {
 
       {/* CONTENT */}
       <div className="ml-[6%] mr-[10%] mb-[6%]">
-
         {/* Programme Overview */}
         <SectionTitle title="Programme Overview" />
         <AnimatedBox>
           <p>
             The Advanced Diploma in Tourism and Hospitality is an intensive,
             career-focused program designed for school leavers and working
-            professionals seeking specialized, high-level skills in tourism
-            and hospitality.
+            professionals seeking specialized, high-level skills in tourism and
+            hospitality.
           </p>
           <p className="mt-4">
             The program advances beyond foundational knowledge, emphasizing
@@ -60,9 +78,15 @@ function ADTH() {
         <SectionTitle title="Teaching & Learning Methodology" />
         <AnimatedBox>
           <ul className="ml-6 space-y-3 list-disc">
-            <li><b>LMS:</b> Canvas / Moodle / Blackboard</li>
-            <li><b>Asynchronous:</b> Recorded lectures, readings, simulations</li>
-            <li><b>Synchronous:</b> Live Zoom / Teams sessions</li>
+            <li>
+              <b>LMS:</b> Canvas / Moodle / Blackboard
+            </li>
+            <li>
+              <b>Asynchronous:</b> Recorded lectures, readings, simulations
+            </li>
+            <li>
+              <b>Synchronous:</b> Live Zoom / Teams sessions
+            </li>
             <li>
               <b>Assessment:</b> Case studies, research papers, projects,
               presentations, portfolios, peer reviews
@@ -96,7 +120,6 @@ function ADTH() {
         {/* Curriculum */}
         <SectionTitle title="Detailed Curriculum" />
         <AnimatedBox>
-
           <Semester
             title="Semester 1 – Foundations of Business Management (15 Credits)"
             items={[
@@ -138,7 +161,6 @@ function ADTH() {
               "Research Project / Optional Subjects",
             ]}
           />
-
         </AnimatedBox>
       </div>
 
@@ -173,13 +195,7 @@ function AnimatedBox({ children }: { children: React.ReactNode }) {
   );
 }
 
-function Semester({
-  title,
-  items,
-}: {
-  title: string;
-  items: string[];
-}) {
+function Semester({ title, items }: { title: string; items: string[] }) {
   return (
     <div className="mt-6">
       <h3 className="mb-2 font-bold text-sky-700">{title}</h3>

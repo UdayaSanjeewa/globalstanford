@@ -4,6 +4,9 @@ import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
+/* Images */
+import backgroundImg from "../../public/diplomas/background.jpeg";
+
 function ADIS() {
   return (
     <div className="bg-gradient-to-r from-blue-900/10 to-blue-900/10">
@@ -11,8 +14,25 @@ function ADIS() {
       <SubNavbar />
 
       {/* HERO SECTION */}
-      <div className="relative h-[420px]">
+      {/* <div className="relative h-[420px]">
         <div className="absolute inset-0 bg-[#003478] opacity-90 flex items-center">
+          <div className="ml-[6%] text-white max-w-4xl">
+            <h1 className="text-[26px] sm:text-[40px] font-extrabold font-catamaran">
+              Advanced Diploma in Information Systems
+            </h1>
+            <p className="mt-4 text-[16px] sm:text-[18px]">
+              SLQF Level 04 • 4 Semesters • 60 Credits • Online / Blended
+            </p>
+          </div>
+        </div>
+      </div> */}
+      {/* HERO SECTION */}
+      <div
+        className="relative h-[420px] bg-cover bg-center"
+        style={{ backgroundImage: `url(${backgroundImg})` }}
+      >
+        {/* Blue overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#003478]/95 to-[#003478]/70 flex items-center">
           <div className="ml-[6%] text-white max-w-4xl">
             <h1 className="text-[26px] sm:text-[40px] font-extrabold font-catamaran">
               Advanced Diploma in Information Systems
@@ -26,7 +46,6 @@ function ADIS() {
 
       {/* CONTENT */}
       <div className="ml-[6%] mr-[10%] mb-[6%]">
-
         {/* Programme Overview */}
         <SectionTitle title="Programme Overview" />
         <AnimatedBox>
@@ -46,7 +65,9 @@ function ADIS() {
         <SectionTitle title="Program Learning Outcomes (PLOs)" />
         <AnimatedBox>
           <ul className="ml-6 space-y-3 list-decimal">
-            <li>Analyze complex problems using advanced theoretical frameworks.</li>
+            <li>
+              Analyze complex problems using advanced theoretical frameworks.
+            </li>
             <li>Design and implement real-world solutions.</li>
             <li>Evaluate ethical, social, and global implications.</li>
             <li>Synthesize information to support decision-making.</li>
@@ -59,10 +80,19 @@ function ADIS() {
         <SectionTitle title="Teaching & Learning Methodology" />
         <AnimatedBox>
           <ul className="ml-6 space-y-3 list-disc">
-            <li><b>LMS:</b> Canvas / Moodle / Blackboard</li>
-            <li><b>Asynchronous:</b> Recorded lectures, readings, simulations</li>
-            <li><b>Synchronous:</b> Live Zoom / Teams sessions</li>
-            <li><b>Assessment:</b> Case studies, projects, portfolios, presentations</li>
+            <li>
+              <b>LMS:</b> Canvas / Moodle / Blackboard
+            </li>
+            <li>
+              <b>Asynchronous:</b> Recorded lectures, readings, simulations
+            </li>
+            <li>
+              <b>Synchronous:</b> Live Zoom / Teams sessions
+            </li>
+            <li>
+              <b>Assessment:</b> Case studies, projects, portfolios,
+              presentations
+            </li>
           </ul>
         </AnimatedBox>
 
@@ -85,46 +115,56 @@ function ADIS() {
             <li>Completed application form</li>
             <li>Current CV / Resume</li>
             <li>Minimum 3 passes in GCE A/L</li>
-            <li>
-              OR SLQF Level 03 Diploma (minimum 30 credits)
-            </li>
+            <li>OR SLQF Level 03 Diploma (minimum 30 credits)</li>
           </ul>
         </AnimatedBox>
 
         {/* Curriculum */}
         <SectionTitle title="Detailed Curriculum" />
         <AnimatedBox>
-          <Semester title="Semester 1" items={[
-            "Management Principles",
-            "Business Communication",
-            "Introduction to Management Information Systems",
-            "Financial Accounting",
-            "Business Analytics"
-          ]} />
+          <Semester
+            title="Semester 1"
+            items={[
+              "Management Principles",
+              "Business Communication",
+              "Introduction to Management Information Systems",
+              "Financial Accounting",
+              "Business Analytics",
+            ]}
+          />
 
-          <Semester title="Semester 2" items={[
-            "Business Process Management",
-            "Data Management & Database Systems",
-            "Information Systems Development",
-            "Economics for Business Managers",
-            "Marketing Management"
-          ]} />
+          <Semester
+            title="Semester 2"
+            items={[
+              "Business Process Management",
+              "Data Management & Database Systems",
+              "Information Systems Development",
+              "Economics for Business Managers",
+              "Marketing Management",
+            ]}
+          />
 
-          <Semester title="Semester 3" items={[
-            "Enterprise Architecture & Digital Innovation",
-            "Data & Application Security",
-            "Operations Management",
-            "Human-Centred Design & UX",
-            "Business Research Methods"
-          ]} />
+          <Semester
+            title="Semester 3"
+            items={[
+              "Enterprise Architecture & Digital Innovation",
+              "Data & Application Security",
+              "Operations Management",
+              "Human-Centred Design & UX",
+              "Business Research Methods",
+            ]}
+          />
 
-          <Semester title="Semester 4" items={[
-            "Research Project / Capstone",
-            "Strategic Management & IS",
-            "Management of Human Capital",
-            "Legal & Ethical Aspects of IS",
-            "Business Practicum"
-          ]} />
+          <Semester
+            title="Semester 4"
+            items={[
+              "Research Project / Capstone",
+              "Strategic Management & IS",
+              "Management of Human Capital",
+              "Legal & Ethical Aspects of IS",
+              "Business Practicum",
+            ]}
+          />
         </AnimatedBox>
       </div>
 
