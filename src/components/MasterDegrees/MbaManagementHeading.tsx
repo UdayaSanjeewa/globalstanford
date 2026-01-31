@@ -58,8 +58,8 @@ function MbaManagementHeading() {
             className='font-catamaran font-[400] text-[10px] lg:text-[16px] ml-6 lg:ml-10 mt-2 lg:mt-5 xl:mt-5 2xl:mt-2  '>
                 <p><b>Duration :</b>  18 Months </p>
                 <p><b>Credits :{" "}</b><span className='font-[400]'>60 credits (Equivalent to 2 Years)</span> </p>
-                <p><b>Intakes :{" "}</b><span className='font-[400]'> Call us at 070 747 7771 / 070 747 7772 for intake information.</span></p>
-                <p><b>Fees :{" "}</b><span className='font-[400]'> Call us at 070 747 7771 / 070 747 7772 for For fees and payment information</span></p> 
+                <p><b>Intakes :{" "}</b><span className='font-[400]'> Call us at 077 462 3123 for intake information.</span></p>
+                <p><b>Fees :{" "}</b><span className='font-[400]'> Call us at 077 462 3123 for For fees and payment information</span></p> 
             </div>
             
             

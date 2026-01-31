@@ -56,7 +56,7 @@ function Footer() {
               <div className="hidden sm:block">
                 <FaMobileAlt />
               </div>
-              <span className="p-2 ">+94 70 747 7771</span>
+              <span className="p-2 ">+94 77 462 3123</span>
             </div>
             <div className="flex items-center gap-2 footer-item">
               <div className="hidden sm:block">
@@ -77,9 +77,9 @@ function Footer() {
               </div>
               Global Stanford Campus,
               <br />
-              191 High Level Rd,
+              No 255,3rd Floor, Dalugama,
               <br />
-              Nugegoda, Sri Lanka
+              Kelaniya 11600, Sri Lanka
             </div>
           </div>
           <div>

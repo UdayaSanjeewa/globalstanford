@@ -74,14 +74,14 @@ function MasterEducationHeading() {
                 <b>Intakes :{" "}</b>
                 <span className="font-[400]">
                   {" "}
-                  Call us at 070 747 7771 / 070 747 7772 for intake information.
+                  Call us at 077 462 3123 for intake information.
                 </span>
               </p>
               <p>
                 <b>Fees :{" "}</b>
                 <span className="font-[400]">
                   {" "}
-                  Call us at 070 747 7771 / 070 747 7772 for For fees and payment information
+                  Call us at 077 462 3123 for For fees and payment information
                 </span>
               </p>
             </div>
