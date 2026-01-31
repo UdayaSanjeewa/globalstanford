@@ -24,14 +24,14 @@ function BBARightBelowBox(props: any) {
         <p className="font-bold">Intakes :</p>&nbsp;
         <p className=" font-regular">
           {" "}
-          Call us at 070 747 7771 / 070 747 7772 for intake information.
+          Call us at 077 462 3123 for intake information.
         </p>
       </div>
 
       <div className="flex flex-row ml-[3%] py-1 pb-2 sm:text-[16px] text-[12px]">
         <p className="font-bold">Fees :</p>&nbsp;
         <p className=" font-regular">
-          Call us at 070 747 7771 / 070 747 7772 for For fees and <br /> payment information
+          Call us at 077 462 3123 for For fees and <br /> payment information
         </p>
       </div>
     </motion.div>
